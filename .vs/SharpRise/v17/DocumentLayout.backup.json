@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\",
+  "WorkspaceRootPath": "C:\\Users\\misha\\Desktop\\SharpRise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|c:\\users\\freakovv\\desktop\\sharprise\\sharprise\\viewmodels\\authwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\authwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\models\\regexvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\models\\regexvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|c:\\users\\freakovv\\desktop\\sharprise\\sharprise\\viewmodels\\authwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\authwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|C:\\Users\\misha\\Desktop\\SharpRise\\sharprise\\viewmodels\\signupwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\signupwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|c:\\users\\freakovv\\desktop\\sharprise\\sharprise\\view\\fadeanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|C:\\Users\\misha\\Desktop\\SharpRise\\sharprise\\viewmodels\\signinwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\signinwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\view\\fadeanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\view\\fadeanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\viewmodels\\signinwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\signinwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FadeAnimation.cs",
-              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\View\\FadeAnimation.cs",
-              "RelativeDocumentMoniker": "SharpRise\\View\\FadeAnimation.cs",
-              "ToolTip": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\View\\FadeAnimation.cs",
-              "RelativeToolTip": "SharpRise\\View\\FadeAnimation.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBQAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RegexValidator.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\Models\\RegexValidator.cs",
+              "RelativeDocumentMoniker": "SharpRise\\Models\\RegexValidator.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\Models\\RegexValidator.cs",
+              "RelativeToolTip": "SharpRise\\Models\\RegexValidator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T09:49:04.49Z",
+              "WhenOpened": "2025-03-19T19:29:00.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\Program.cs",
+              "RelativeDocumentMoniker": "SharpRise\\Program.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\Program.cs",
+              "RelativeToolTip": "SharpRise\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T19:25:33.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\ViewModels\\AuthWindow.cs",
-              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\AuthWindow.cs",
-              "ToolTip": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\ViewModels\\AuthWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "SharpRise\\ViewModels\\AuthWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "SignUpWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\SignUpWindow.cs",
+              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\SignUpWindow.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\SignUpWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "SharpRise\\ViewModels\\SignUpWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T11:16:52.031Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignInWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\SignInWindow.cs",
+              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\SignInWindow.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\SignInWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "SharpRise\\ViewModels\\SignInWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T19:28:29.062Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthWindow.cs",
-              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\ViewModels\\AuthWindow.cs",
-              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\AuthWindow.cs",
-              "ToolTip": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\ViewModels\\AuthWindow.cs",
-              "RelativeToolTip": "SharpRise\\ViewModels\\AuthWindow.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "FadeAnimation.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\View\\FadeAnimation.cs",
+              "RelativeDocumentMoniker": "SharpRise\\View\\FadeAnimation.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\View\\FadeAnimation.cs",
+              "RelativeToolTip": "SharpRise\\View\\FadeAnimation.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:28:59.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T09:49:04.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignInWindow.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\SignInWindow.cs",
+              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\SignInWindow.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\SignInWindow.cs",
+              "RelativeToolTip": "SharpRise\\ViewModels\\SignInWindow.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T19:28:59.954Z"
             }
           ]
         }

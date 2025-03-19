@@ -1,3 +1,5 @@
+using SharpRise.ViewModels;
+
 namespace SharpRise
 {
     internal static class Program
