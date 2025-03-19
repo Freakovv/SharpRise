@@ -1,7 +1,9 @@
-﻿using System;
+﻿using SharpRise.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,11 +12,14 @@ using System.Windows.Forms;
 
 namespace SharpRise
 {
-    internal partial class AuthWindow : Form
+    internal partial class SignInWindow : Form
     {
-        public AuthWindow()
+        FadeAnimation animation;
+        public SignInWindow()
         {
             InitializeComponent();
+            animation = new FadeAnimation(this);
+            animation.FadeIn();
         }
 
 

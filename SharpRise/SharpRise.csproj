@@ -9,13 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CuoreUI.Winforms" Version="2025.3.3" />
     <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.7" />
     <PackageReference Include="System.CodeDom" Version="7.0.0" />
     <PackageReference Include="System.Management" Version="7.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="icons\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +28,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>

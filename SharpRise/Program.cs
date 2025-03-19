@@ -7,7 +7,7 @@ namespace SharpRise
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new AuthWindow());
+            Application.Run(new SignInWindow());
         }
     }
 }
