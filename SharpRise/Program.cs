@@ -9,7 +9,7 @@ namespace SharpRise
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new SignInWindow());
+            Application.Run(new GroupSelectionScenario());
         }
     }
 }
