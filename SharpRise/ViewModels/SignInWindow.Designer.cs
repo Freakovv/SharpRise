@@ -33,11 +33,11 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignInWindow));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -58,9 +58,9 @@
             btnAuthGoogle = new Guna.UI2.WinForms.Guna2Button();
             pictureLogo = new Guna.UI2.WinForms.Guna2PictureBox();
             layoutMainWindow = new TableLayoutPanel();
-            btnLanguage = new Guna.UI2.WinForms.Guna2Button();
             btnGit = new Guna.UI2.WinForms.Guna2Button();
             label2 = new Label();
+            btnLanguage = new Guna.UI2.WinForms.Guna2Button();
             head = new Guna.UI2.WinForms.Guna2GradientPanel();
             btnMinimize = new Guna.UI2.WinForms.Guna2CircleButton();
             btnExit = new Guna.UI2.WinForms.Guna2CircleButton();
@@ -312,7 +312,6 @@
             btnAuthGoogle.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             btnAuthGoogle.ForeColor = Color.FromArgb(225, 228, 231);
             btnAuthGoogle.HoverState.FillColor = Color.FromArgb(24, 24, 27);
-            btnAuthGoogle.Image = Properties.Resources.google;
             btnAuthGoogle.ImageAlign = HorizontalAlignment.Right;
             btnAuthGoogle.ImageOffset = new Point(55, -1);
             btnAuthGoogle.Location = new Point(0, 5);
@@ -361,28 +360,6 @@
             layoutMainWindow.Size = new Size(1280, 690);
             layoutMainWindow.TabIndex = 1;
             // 
-            // btnLanguage
-            // 
-            btnLanguage.BorderColor = Color.Gray;
-            btnLanguage.BorderRadius = 10;
-            btnLanguage.BorderThickness = 1;
-            btnLanguage.CustomizableEdges = customizableEdges21;
-            btnLanguage.DisabledState.BorderColor = Color.DarkGray;
-            btnLanguage.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnLanguage.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnLanguage.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnLanguage.FillColor = Color.FromArgb(39, 39, 41);
-            btnLanguage.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            btnLanguage.ForeColor = Color.White;
-            btnLanguage.HoverState.FillColor = Color.FromArgb(24, 24, 27);
-            btnLanguage.Location = new Point(10, 10);
-            btnLanguage.Margin = new Padding(10, 10, 3, 2);
-            btnLanguage.Name = "btnLanguage";
-            btnLanguage.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            btnLanguage.Size = new Size(49, 26);
-            btnLanguage.TabIndex = 1;
-            btnLanguage.Text = "RU";
-            // 
             // btnGit
             // 
             btnGit.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
@@ -422,6 +399,28 @@
             label2.TabIndex = 3;
             label2.Text = "© SharpRise";
             // 
+            // btnLanguage
+            // 
+            btnLanguage.BorderColor = Color.Gray;
+            btnLanguage.BorderRadius = 10;
+            btnLanguage.BorderThickness = 1;
+            btnLanguage.CustomizableEdges = customizableEdges21;
+            btnLanguage.DisabledState.BorderColor = Color.DarkGray;
+            btnLanguage.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnLanguage.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnLanguage.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnLanguage.FillColor = Color.FromArgb(39, 39, 41);
+            btnLanguage.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLanguage.ForeColor = Color.White;
+            btnLanguage.HoverState.FillColor = Color.FromArgb(24, 24, 27);
+            btnLanguage.Location = new Point(10, 10);
+            btnLanguage.Margin = new Padding(10, 10, 3, 2);
+            btnLanguage.Name = "btnLanguage";
+            btnLanguage.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            btnLanguage.Size = new Size(49, 26);
+            btnLanguage.TabIndex = 1;
+            btnLanguage.Text = "RU";
+            // 
             // head
             // 
             head.BackColor = Color.FromArgb(22, 23, 27);
@@ -448,7 +447,7 @@
             btnMinimize.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnMinimize.ForeColor = Color.FromArgb(34, 35, 39);
             btnMinimize.Image = Properties.Resources.minimize;
-            btnMinimize.Location = new Point(1231, 2);
+            btnMinimize.Location = new Point(1230, 5);
             btnMinimize.Margin = new Padding(3, 2, 3, 2);
             btnMinimize.Name = "btnMinimize";
             btnMinimize.ShadowDecoration.CustomizableEdges = customizableEdges1;
@@ -469,7 +468,7 @@
             btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnExit.ForeColor = Color.FromArgb(34, 35, 39);
             btnExit.Image = Properties.Resources.close;
-            btnExit.Location = new Point(1255, 2);
+            btnExit.Location = new Point(1254, 5);
             btnExit.Margin = new Padding(3, 2, 3, 2);
             btnExit.Name = "btnExit";
             btnExit.ShadowDecoration.CustomizableEdges = customizableEdges2;

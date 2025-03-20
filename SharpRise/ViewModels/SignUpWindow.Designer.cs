@@ -31,6 +31,8 @@
             components = new System.ComponentModel.Container();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUpWindow));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -48,12 +50,11 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             btnMinimize = new Guna.UI2.WinForms.Guna2CircleButton();
             btnExit = new Guna.UI2.WinForms.Guna2CircleButton();
             border = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
             dragMainWindow = new Guna.UI2.WinForms.Guna2DragControl(components);
+            head = new Guna.UI2.WinForms.Guna2GradientPanel();
             layoutMainWindow = new TableLayoutPanel();
             btnGit = new Guna.UI2.WinForms.Guna2Button();
             ShadowPanel = new Guna.UI2.WinForms.Guna2ShadowPanel();
@@ -67,12 +68,11 @@
             textBoxEmail = new Guna.UI2.WinForms.Guna2TextBox();
             label2 = new Label();
             pictureLogo = new Guna.UI2.WinForms.Guna2PictureBox();
-            head = new Guna.UI2.WinForms.Guna2GradientPanel();
+            head.SuspendLayout();
             layoutMainWindow.SuspendLayout();
             ShadowPanel.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureLogo).BeginInit();
-            head.SuspendLayout();
             SuspendLayout();
             // 
             // btnMinimize
@@ -87,7 +87,7 @@
             btnMinimize.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnMinimize.ForeColor = Color.FromArgb(34, 35, 39);
             btnMinimize.Image = Properties.Resources.minimize;
-            btnMinimize.Location = new Point(1219, 3);
+            btnMinimize.Location = new Point(1216, 5);
             btnMinimize.Name = "btnMinimize";
             btnMinimize.ShadowDecoration.CustomizableEdges = customizableEdges1;
             btnMinimize.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -106,7 +106,7 @@
             btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             btnExit.ForeColor = Color.FromArgb(34, 35, 39);
             btnExit.Image = Properties.Resources.close;
-            btnExit.Location = new Point(1243, 3);
+            btnExit.Location = new Point(1240, 5);
             btnExit.Name = "btnExit";
             btnExit.ShadowDecoration.CustomizableEdges = customizableEdges2;
             btnExit.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -125,6 +125,19 @@
             dragMainWindow.DockIndicatorTransparencyValue = 0.6D;
             dragMainWindow.TargetControl = head;
             dragMainWindow.TransparentWhileDrag = false;
+            // 
+            // head
+            // 
+            head.BackColor = Color.FromArgb(22, 23, 27);
+            head.Controls.Add(btnMinimize);
+            head.Controls.Add(btnExit);
+            head.CustomizableEdges = customizableEdges3;
+            head.Dock = DockStyle.Top;
+            head.Location = new Point(0, 0);
+            head.Name = "head";
+            head.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            head.Size = new Size(1264, 25);
+            head.TabIndex = 3;
             // 
             // layoutMainWindow
             // 
@@ -226,11 +239,11 @@
             textAgree.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             textAgree.ForeColor = Color.FromArgb(201, 201, 201);
             textAgree.ImeMode = ImeMode.NoControl;
-            textAgree.Location = new Point(40, 206);
+            textAgree.Location = new Point(68, 206);
             textAgree.Name = "textAgree";
-            textAgree.Size = new Size(385, 18);
+            textAgree.Size = new Size(335, 18);
             textAgree.TabIndex = 13;
-            textAgree.Text = "Создавая учетную запись, вы соглашаетесь с нашей";
+            textAgree.Text = "Создавая учетную запись, вы соглашаетесь с";
             // 
             // btnSignUp
             // 
@@ -245,7 +258,7 @@
             btnSignUp.ForeColor = Color.FromArgb(201, 201, 201);
             btnSignUp.HoverState.FillColor = Color.FromArgb(34, 35, 39);
             btnSignUp.HoverState.ForeColor = Color.FromArgb(103, 149, 222);
-            btnSignUp.Location = new Point(418, 203);
+            btnSignUp.Location = new Point(397, 204);
             btnSignUp.Margin = new Padding(3, 2, 3, 2);
             btnSignUp.Name = "btnSignUp";
             btnSignUp.PressedDepth = 0;
@@ -271,7 +284,7 @@
             guna2TextBox3.FocusedState.FillColor = Color.FromArgb(30, 30, 30);
             guna2TextBox3.Font = new Font("Roboto", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             guna2TextBox3.HoverState.FillColor = Color.Black;
-            guna2TextBox3.IconLeft = Properties.Resources.lock_fill1;
+            guna2TextBox3.IconLeft = Properties.Resources._lock;
             guna2TextBox3.Location = new Point(0, 154);
             guna2TextBox3.Margin = new Padding(10, 3, 10, 3);
             guna2TextBox3.MaxLength = 254;
@@ -300,7 +313,7 @@
             guna2TextBox2.FocusedState.FillColor = Color.FromArgb(30, 30, 30);
             guna2TextBox2.Font = new Font("Roboto", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             guna2TextBox2.HoverState.FillColor = Color.Black;
-            guna2TextBox2.IconLeft = Properties.Resources.lock_fill;
+            guna2TextBox2.IconLeft = Properties.Resources._lock;
             guna2TextBox2.Location = new Point(0, 103);
             guna2TextBox2.Margin = new Padding(10, 3, 10, 3);
             guna2TextBox2.MaxLength = 254;
@@ -329,7 +342,7 @@
             textBoxUsername.FocusedState.FillColor = Color.FromArgb(30, 30, 30);
             textBoxUsername.Font = new Font("Roboto", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             textBoxUsername.HoverState.FillColor = Color.Black;
-            textBoxUsername.IconLeft = Properties.Resources.username_fill;
+            textBoxUsername.IconLeft = Properties.Resources.person;
             textBoxUsername.Location = new Point(0, 52);
             textBoxUsername.Margin = new Padding(10, 3, 10, 3);
             textBoxUsername.MaxLength = 10;
@@ -357,7 +370,7 @@
             textBoxEmail.FocusedState.FillColor = Color.FromArgb(30, 30, 30);
             textBoxEmail.Font = new Font("Roboto", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             textBoxEmail.HoverState.FillColor = Color.Black;
-            textBoxEmail.IconLeft = Properties.Resources.mail_fill;
+            textBoxEmail.IconLeft = Properties.Resources.mail;
             textBoxEmail.Location = new Point(0, 0);
             textBoxEmail.Margin = new Padding(10, 3, 10, 3);
             textBoxEmail.MaxLength = 254;
@@ -401,19 +414,6 @@
             pictureLogo.TabStop = false;
             pictureLogo.UseTransparentBackground = true;
             // 
-            // head
-            // 
-            head.BackColor = Color.FromArgb(22, 23, 27);
-            head.Controls.Add(btnMinimize);
-            head.Controls.Add(btnExit);
-            head.CustomizableEdges = customizableEdges3;
-            head.Dock = DockStyle.Top;
-            head.Location = new Point(0, 0);
-            head.Name = "head";
-            head.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            head.Size = new Size(1264, 25);
-            head.TabIndex = 3;
-            // 
             // SignUpWindow
             // 
             AutoScaleDimensions = new SizeF(8F, 18F);
@@ -428,13 +428,13 @@
             Name = "SignUpWindow";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "SignUpWindow";
+            head.ResumeLayout(false);
             layoutMainWindow.ResumeLayout(false);
             layoutMainWindow.PerformLayout();
             ShadowPanel.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureLogo).EndInit();
-            head.ResumeLayout(false);
             ResumeLayout(false);
         }
 
