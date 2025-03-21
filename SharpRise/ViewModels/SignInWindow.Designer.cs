@@ -331,6 +331,7 @@
             pictureLogo.BackgroundImageLayout = ImageLayout.None;
             pictureLogo.CustomizableEdges = customizableEdges17;
             pictureLogo.FillColor = Color.Transparent;
+            pictureLogo.Image = Properties.Resources.logo_text_right;
             pictureLogo.ImageRotate = 0F;
             pictureLogo.InitialImage = null;
             pictureLogo.Location = new Point(3, 3);
