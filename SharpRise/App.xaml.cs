@@ -15,13 +15,10 @@ namespace SharpRiseIntegration
             ViewModelsWPF.SplashScreen splashScreen = new ViewModelsWPF.SplashScreen();
             splashScreen.Show();
 
-            // Запускаем асинхронную задачу для загрузки данных или выполнения других операций
             Task.Run(() =>
             {
-                // Имитация загрузки
                 Thread.Sleep(3000); 
 
-                // Закрываем SplashScreen и открываем WinForms-форму
                 this.Dispatcher.Invoke(() =>
                 {
                     splashScreen.Close();
@@ -32,7 +29,6 @@ namespace SharpRiseIntegration
 
         private void OpenMainForm()
         {
-            // Запуск WinForms-формы
             WinFormsApp.EnableVisualStyles();
             WinFormsApp.SetCompatibleTextRenderingDefault(false);
             WinFormsApp.Run(new SignInWindow());
