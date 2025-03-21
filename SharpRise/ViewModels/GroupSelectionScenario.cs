@@ -47,7 +47,7 @@ namespace SharpRise.ViewModels
             msg.Dispose();
         }
 
-        private void btnCancelJoin_Click(object sender, EventArgs e)
+        private void btnCancel_Click(object sender, EventArgs e)
         {
             TabControl.SelectTab(pgSelect);
             inputInviteCode.Clear();
