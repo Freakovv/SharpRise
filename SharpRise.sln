@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpRise", "SharpRise\SharpRise.csproj", "{8B2393FA-5F28-4621-BA08-1D31CE9C031C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpRise", "SharpRiseIntegration\SharpRise.csproj", "{A3940734-7FC8-4477-AA6F-C75317AB9AC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8B2393FA-5F28-4621-BA08-1D31CE9C031C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B2393FA-5F28-4621-BA08-1D31CE9C031C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B2393FA-5F28-4621-BA08-1D31CE9C031C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B2393FA-5F28-4621-BA08-1D31CE9C031C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3940734-7FC8-4477-AA6F-C75317AB9AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3940734-7FC8-4477-AA6F-C75317AB9AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3940734-7FC8-4477-AA6F-C75317AB9AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3940734-7FC8-4477-AA6F-C75317AB9AC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6317B91A-0FDB-427E-B8DF-B7D67C5DB017}
+		SolutionGuid = {0101EC77-19EA-43A5-901A-2CB85D827EB2}
 	EndGlobalSection
 EndGlobal

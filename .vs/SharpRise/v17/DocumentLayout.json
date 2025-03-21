@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\misha\\Desktop\\SharpRise\\",
+  "WorkspaceRootPath": "C:\\Users\\misha\\Desktop\\test\\SharpRiseIntegration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRiseIntegration\\SharpRise.csproj|c:\\users\\misha\\desktop\\test\\sharpriseintegration\\sharpriseintegration\\viewmodels\\signinwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRiseIntegration\\SharpRise.csproj|solutionrelative:sharpriseintegration\\viewmodels\\signinwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRiseIntegration\\SharpRise.csproj|c:\\users\\misha\\desktop\\test\\sharpriseintegration\\sharpriseintegration\\viewmodels\\signinwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRiseIntegration\\SharpRise.csproj|solutionrelative:sharpriseintegration\\viewmodels\\signinwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\view\\sharprisemessagedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\view\\sharprisemessagedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRiseIntegration\\SharpRise.csproj|c:\\users\\misha\\desktop\\test\\sharpriseintegration\\sharpriseintegration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRiseIntegration\\SharpRise.csproj|solutionrelative:sharpriseintegration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|C:\\Users\\misha\\Desktop\\SharpRise\\sharprise\\viewmodels\\signinwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\signinwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|C:\\Users\\misha\\Desktop\\SharpRise\\sharprise\\viewmodels\\signupwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8B2393FA-5F28-4621-BA08-1D31CE9C031C}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\signupwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRiseIntegration\\SharpRise.csproj|c:\\users\\misha\\desktop\\test\\sharpriseintegration\\sharpriseintegration\\view\\fadeanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRiseIntegration\\SharpRise.csproj|solutionrelative:sharpriseintegration\\view\\fadeanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SharpRiseMessageDialog.cs",
-              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\View\\SharpRiseMessageDialog.cs",
-              "RelativeDocumentMoniker": "SharpRise\\View\\SharpRiseMessageDialog.cs",
-              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\View\\SharpRiseMessageDialog.cs",
-              "RelativeToolTip": "SharpRise\\View\\SharpRiseMessageDialog.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAcwE0AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:01:55.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GroupSelectionScenario.cs",
-              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
-              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
-              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
-              "RelativeToolTip": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAIA1wDQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:42:20.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
-              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
-              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "SharpRise\\ViewModels\\GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "SignInWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\test\\SharpRiseIntegration\\SharpRiseIntegration\\ViewModels\\SignInWindow.cs",
+              "RelativeDocumentMoniker": "SharpRiseIntegration\\ViewModels\\SignInWindow.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\test\\SharpRiseIntegration\\SharpRiseIntegration\\ViewModels\\SignInWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "SharpRiseIntegration\\ViewModels\\SignInWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T21:34:17.582Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SignUpWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\SignUpWindow.cs",
-              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\SignUpWindow.cs",
-              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\SignUpWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "SharpRise\\ViewModels\\SignUpWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T11:16:52.031Z",
+              "WhenOpened": "2025-03-21T15:15:30.64Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SignInWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\SignInWindow.cs",
-              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\SignInWindow.cs",
-              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\SignInWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "SharpRise\\ViewModels\\SignInWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "FadeAnimation.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\test\\SharpRiseIntegration\\SharpRiseIntegration\\View\\FadeAnimation.cs",
+              "RelativeDocumentMoniker": "SharpRiseIntegration\\View\\FadeAnimation.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\test\\SharpRiseIntegration\\SharpRiseIntegration\\View\\FadeAnimation.cs",
+              "RelativeToolTip": "SharpRiseIntegration\\View\\FadeAnimation.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAswD4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:28:29.062Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-03-21T15:09:51.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\test\\SharpRiseIntegration\\SharpRiseIntegration\\App.xaml.cs",
+              "RelativeDocumentMoniker": "SharpRiseIntegration\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\test\\SharpRiseIntegration\\SharpRiseIntegration\\App.xaml.cs",
+              "RelativeToolTip": "SharpRiseIntegration\\App.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:28:36.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignInWindow.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\test\\SharpRiseIntegration\\SharpRiseIntegration\\ViewModels\\SignInWindow.cs",
+              "RelativeDocumentMoniker": "SharpRiseIntegration\\ViewModels\\SignInWindow.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\test\\SharpRiseIntegration\\SharpRiseIntegration\\ViewModels\\SignInWindow.cs",
+              "RelativeToolTip": "SharpRiseIntegration\\ViewModels\\SignInWindow.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:23:27.517Z",
+              "EditorCaption": ""
             }
           ]
         }
