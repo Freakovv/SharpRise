@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using System.Windows.Media.Animation;
 
 namespace SharpRiseIntegration.ViewModelsWPF
 {
@@ -7,6 +8,12 @@ namespace SharpRiseIntegration.ViewModelsWPF
         public SplashScreen()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            Storyboard fadeIn = (Storyboard)FindResource("FadeInAnimation");
+            fadeIn.Begin(this);
         }
     }
 }
