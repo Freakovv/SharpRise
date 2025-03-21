@@ -49,13 +49,13 @@
             label1 = new Label();
             btnSignUp = new Guna.UI2.WinForms.Guna2Button();
             btnSignIn = new Guna.UI2.WinForms.Guna2Button();
-            btnForgot = new Guna.UI2.WinForms.Guna2Button();
-            textBoxPassword = new Guna.UI2.WinForms.Guna2TextBox();
-            textBoxLogin = new Guna.UI2.WinForms.Guna2TextBox();
+            btnForgotPassword = new Guna.UI2.WinForms.Guna2Button();
+            inputPassword = new Guna.UI2.WinForms.Guna2TextBox();
+            inputLogin = new Guna.UI2.WinForms.Guna2TextBox();
             guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             textOR = new Label();
             separator1 = new Guna.UI2.WinForms.Guna2Separator();
-            btnAuthGoogle = new Guna.UI2.WinForms.Guna2Button();
+            btnSignInGoogle = new Guna.UI2.WinForms.Guna2Button();
             pictureLogo = new Guna.UI2.WinForms.Guna2PictureBox();
             layoutMainWindow = new TableLayoutPanel();
             btnGit = new Guna.UI2.WinForms.Guna2Button();
@@ -117,13 +117,13 @@
             panelItems.Controls.Add(label1);
             panelItems.Controls.Add(btnSignUp);
             panelItems.Controls.Add(btnSignIn);
-            panelItems.Controls.Add(btnForgot);
-            panelItems.Controls.Add(textBoxPassword);
-            panelItems.Controls.Add(textBoxLogin);
+            panelItems.Controls.Add(btnForgotPassword);
+            panelItems.Controls.Add(inputPassword);
+            panelItems.Controls.Add(inputLogin);
             panelItems.Controls.Add(guna2Separator1);
             panelItems.Controls.Add(textOR);
             panelItems.Controls.Add(separator1);
-            panelItems.Controls.Add(btnAuthGoogle);
+            panelItems.Controls.Add(btnSignInGoogle);
             panelItems.Location = new Point(22, 96);
             panelItems.Margin = new Padding(3, 2, 3, 2);
             panelItems.Name = "panelItems";
@@ -163,6 +163,7 @@
             btnSignUp.TabIndex = 12;
             btnSignUp.Text = "Зарегистрируйтесь";
             btnSignUp.TextOffset = new Point(-10, 0);
+            btnSignUp.Click += btnSignUp_Click;
             // 
             // btnSignIn
             // 
@@ -185,85 +186,85 @@
             btnSignIn.TabIndex = 9;
             btnSignIn.Text = "Войти";
             // 
-            // btnForgot
+            // btnForgotPassword
             // 
-            btnForgot.CustomizableEdges = customizableEdges9;
-            btnForgot.DisabledState.BorderColor = Color.DarkGray;
-            btnForgot.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnForgot.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnForgot.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnForgot.FillColor = Color.FromArgb(34, 35, 39);
-            btnForgot.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            btnForgot.ForeColor = Color.FromArgb(201, 201, 201);
-            btnForgot.HoverState.FillColor = Color.FromArgb(34, 35, 39);
-            btnForgot.HoverState.ForeColor = Color.FromArgb(103, 149, 222);
-            btnForgot.Location = new Point(210, 185);
-            btnForgot.Margin = new Padding(3, 2, 3, 2);
-            btnForgot.Name = "btnForgot";
-            btnForgot.PressedDepth = 0;
-            btnForgot.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            btnForgot.Size = new Size(123, 21);
-            btnForgot.TabIndex = 8;
-            btnForgot.Text = "Забыли пароль?";
-            btnForgot.TextOffset = new Point(-10, 0);
+            btnForgotPassword.CustomizableEdges = customizableEdges9;
+            btnForgotPassword.DisabledState.BorderColor = Color.DarkGray;
+            btnForgotPassword.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnForgotPassword.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnForgotPassword.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnForgotPassword.FillColor = Color.FromArgb(34, 35, 39);
+            btnForgotPassword.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnForgotPassword.ForeColor = Color.FromArgb(201, 201, 201);
+            btnForgotPassword.HoverState.FillColor = Color.FromArgb(34, 35, 39);
+            btnForgotPassword.HoverState.ForeColor = Color.FromArgb(103, 149, 222);
+            btnForgotPassword.Location = new Point(210, 185);
+            btnForgotPassword.Margin = new Padding(3, 2, 3, 2);
+            btnForgotPassword.Name = "btnForgotPassword";
+            btnForgotPassword.PressedDepth = 0;
+            btnForgotPassword.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btnForgotPassword.Size = new Size(123, 21);
+            btnForgotPassword.TabIndex = 8;
+            btnForgotPassword.Text = "Забыли пароль?";
+            btnForgotPassword.TextOffset = new Point(-10, 0);
             // 
-            // textBoxPassword
+            // inputPassword
             // 
-            textBoxPassword.BorderColor = Color.FromArgb(63, 63, 70);
-            textBoxPassword.BorderRadius = 10;
+            inputPassword.BorderColor = Color.FromArgb(63, 63, 70);
+            inputPassword.BorderRadius = 10;
             customizableEdges11.TopLeft = false;
             customizableEdges11.TopRight = false;
-            textBoxPassword.CustomizableEdges = customizableEdges11;
-            textBoxPassword.DefaultText = "";
-            textBoxPassword.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            textBoxPassword.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            textBoxPassword.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            textBoxPassword.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            textBoxPassword.FillColor = Color.FromArgb(39, 39, 42);
-            textBoxPassword.FocusedState.BorderColor = Color.FromArgb(75, 85, 99);
-            textBoxPassword.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxPassword.IconLeft = Properties.Resources._lock;
-            textBoxPassword.IconLeftOffset = new Point(3, 0);
-            textBoxPassword.IconLeftSize = new Size(21, 23);
-            textBoxPassword.Location = new Point(0, 135);
-            textBoxPassword.Margin = new Padding(3, 4, 3, 4);
-            textBoxPassword.Name = "textBoxPassword";
-            textBoxPassword.PlaceholderForeColor = Color.FromArgb(113, 113, 122);
-            textBoxPassword.PlaceholderText = "Пароль";
-            textBoxPassword.SelectedText = "";
-            textBoxPassword.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            textBoxPassword.Size = new Size(310, 43);
-            textBoxPassword.TabIndex = 7;
-            textBoxPassword.UseSystemPasswordChar = true;
+            inputPassword.CustomizableEdges = customizableEdges11;
+            inputPassword.DefaultText = "";
+            inputPassword.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            inputPassword.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            inputPassword.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            inputPassword.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            inputPassword.FillColor = Color.FromArgb(39, 39, 42);
+            inputPassword.FocusedState.BorderColor = Color.FromArgb(75, 85, 99);
+            inputPassword.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            inputPassword.IconLeft = Properties.Resources._lock;
+            inputPassword.IconLeftOffset = new Point(3, 0);
+            inputPassword.IconLeftSize = new Size(21, 23);
+            inputPassword.Location = new Point(0, 135);
+            inputPassword.Margin = new Padding(3, 4, 3, 4);
+            inputPassword.Name = "inputPassword";
+            inputPassword.PlaceholderForeColor = Color.FromArgb(113, 113, 122);
+            inputPassword.PlaceholderText = "Пароль";
+            inputPassword.SelectedText = "";
+            inputPassword.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            inputPassword.Size = new Size(310, 43);
+            inputPassword.TabIndex = 7;
+            inputPassword.UseSystemPasswordChar = true;
             // 
-            // textBoxLogin
+            // inputLogin
             // 
-            textBoxLogin.BorderColor = Color.FromArgb(63, 63, 70);
-            textBoxLogin.BorderRadius = 10;
+            inputLogin.BorderColor = Color.FromArgb(63, 63, 70);
+            inputLogin.BorderRadius = 10;
             customizableEdges13.BottomLeft = false;
             customizableEdges13.BottomRight = false;
-            textBoxLogin.CustomizableEdges = customizableEdges13;
-            textBoxLogin.DefaultText = "";
-            textBoxLogin.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            textBoxLogin.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            textBoxLogin.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            textBoxLogin.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            textBoxLogin.FillColor = Color.FromArgb(39, 39, 42);
-            textBoxLogin.FocusedState.BorderColor = Color.FromArgb(75, 85, 99);
-            textBoxLogin.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxLogin.IconLeft = Properties.Resources.mail;
-            textBoxLogin.IconLeftOffset = new Point(3, 0);
-            textBoxLogin.IconLeftSize = new Size(21, 21);
-            textBoxLogin.Location = new Point(0, 93);
-            textBoxLogin.Margin = new Padding(3, 4, 3, 4);
-            textBoxLogin.MaxLength = 254;
-            textBoxLogin.Name = "textBoxLogin";
-            textBoxLogin.PlaceholderForeColor = Color.FromArgb(113, 113, 122);
-            textBoxLogin.PlaceholderText = "Email";
-            textBoxLogin.SelectedText = "";
-            textBoxLogin.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            textBoxLogin.Size = new Size(310, 43);
-            textBoxLogin.TabIndex = 6;
+            inputLogin.CustomizableEdges = customizableEdges13;
+            inputLogin.DefaultText = "";
+            inputLogin.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            inputLogin.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            inputLogin.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            inputLogin.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            inputLogin.FillColor = Color.FromArgb(39, 39, 42);
+            inputLogin.FocusedState.BorderColor = Color.FromArgb(75, 85, 99);
+            inputLogin.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            inputLogin.IconLeft = Properties.Resources.mail;
+            inputLogin.IconLeftOffset = new Point(3, 0);
+            inputLogin.IconLeftSize = new Size(21, 21);
+            inputLogin.Location = new Point(0, 93);
+            inputLogin.Margin = new Padding(3, 4, 3, 4);
+            inputLogin.MaxLength = 254;
+            inputLogin.Name = "inputLogin";
+            inputLogin.PlaceholderForeColor = Color.FromArgb(113, 113, 122);
+            inputLogin.PlaceholderText = "Email";
+            inputLogin.SelectedText = "";
+            inputLogin.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            inputLogin.Size = new Size(310, 43);
+            inputLogin.TabIndex = 6;
             // 
             // guna2Separator1
             // 
@@ -281,11 +282,11 @@
             textOR.BackColor = Color.FromArgb(34, 35, 39);
             textOR.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             textOR.ForeColor = Color.FromArgb(63, 63, 70);
-            textOR.Location = new Point(139, 55);
+            textOR.Location = new Point(136, 55);
             textOR.Name = "textOR";
-            textOR.Size = new Size(31, 18);
+            textOR.Size = new Size(41, 18);
             textOR.TabIndex = 4;
-            textOR.Text = "OR";
+            textOR.Text = "ИЛИ";
             // 
             // separator1
             // 
@@ -297,31 +298,32 @@
             separator1.Size = new Size(134, 10);
             separator1.TabIndex = 3;
             // 
-            // btnAuthGoogle
+            // btnSignInGoogle
             // 
-            btnAuthGoogle.Anchor = AnchorStyles.Top;
-            btnAuthGoogle.BorderColor = Color.Gray;
-            btnAuthGoogle.BorderRadius = 10;
-            btnAuthGoogle.BorderThickness = 1;
-            btnAuthGoogle.CustomizableEdges = customizableEdges15;
-            btnAuthGoogle.DisabledState.BorderColor = Color.DarkGray;
-            btnAuthGoogle.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnAuthGoogle.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnAuthGoogle.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnAuthGoogle.FillColor = Color.FromArgb(39, 39, 41);
-            btnAuthGoogle.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btnAuthGoogle.ForeColor = Color.FromArgb(225, 228, 231);
-            btnAuthGoogle.HoverState.FillColor = Color.FromArgb(24, 24, 27);
-            btnAuthGoogle.ImageAlign = HorizontalAlignment.Right;
-            btnAuthGoogle.ImageOffset = new Point(55, -1);
-            btnAuthGoogle.Location = new Point(0, 5);
-            btnAuthGoogle.Margin = new Padding(5, 2, 5, 2);
-            btnAuthGoogle.Name = "btnAuthGoogle";
-            btnAuthGoogle.PressedDepth = 0;
-            btnAuthGoogle.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnAuthGoogle.Size = new Size(310, 39);
-            btnAuthGoogle.TabIndex = 0;
-            btnAuthGoogle.Text = "Войти через Google";
+            btnSignInGoogle.Anchor = AnchorStyles.Top;
+            btnSignInGoogle.BorderColor = Color.Gray;
+            btnSignInGoogle.BorderRadius = 10;
+            btnSignInGoogle.BorderThickness = 1;
+            btnSignInGoogle.CustomizableEdges = customizableEdges15;
+            btnSignInGoogle.DisabledState.BorderColor = Color.DarkGray;
+            btnSignInGoogle.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSignInGoogle.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSignInGoogle.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSignInGoogle.FillColor = Color.FromArgb(39, 39, 41);
+            btnSignInGoogle.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSignInGoogle.ForeColor = Color.FromArgb(225, 228, 231);
+            btnSignInGoogle.HoverState.FillColor = Color.FromArgb(24, 24, 27);
+            btnSignInGoogle.Image = Properties.Resources.google;
+            btnSignInGoogle.ImageAlign = HorizontalAlignment.Right;
+            btnSignInGoogle.ImageOffset = new Point(55, -1);
+            btnSignInGoogle.Location = new Point(0, 5);
+            btnSignInGoogle.Margin = new Padding(5, 2, 5, 2);
+            btnSignInGoogle.Name = "btnSignInGoogle";
+            btnSignInGoogle.PressedDepth = 0;
+            btnSignInGoogle.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnSignInGoogle.Size = new Size(310, 39);
+            btnSignInGoogle.TabIndex = 0;
+            btnSignInGoogle.Text = "Войти через Google";
             // 
             // pictureLogo
             // 
@@ -329,7 +331,6 @@
             pictureLogo.BackgroundImageLayout = ImageLayout.None;
             pictureLogo.CustomizableEdges = customizableEdges17;
             pictureLogo.FillColor = Color.Transparent;
-            pictureLogo.Image = Properties.Resources.logo_text_right;
             pictureLogo.ImageRotate = 0F;
             pictureLogo.InitialImage = null;
             pictureLogo.Location = new Point(3, 3);
@@ -525,15 +526,15 @@
         private Guna.UI2.WinForms.Guna2CircleButton btnMinimize;
         private TableLayoutPanel layoutItems;
         private Panel panelItems;
-        private Guna.UI2.WinForms.Guna2Button btnAuthGoogle;
+        private Guna.UI2.WinForms.Guna2Button btnSignInGoogle;
         private Guna.UI2.WinForms.Guna2DragControl dragMainWindow;
         private Guna.UI2.WinForms.Guna2Button btnGit;
         private Guna.UI2.WinForms.Guna2Separator separator1;
         private Label textOR;
-        private Guna.UI2.WinForms.Guna2TextBox textBoxLogin;
+        private Guna.UI2.WinForms.Guna2TextBox inputLogin;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
-        private Guna.UI2.WinForms.Guna2TextBox textBoxPassword;
-        private Guna.UI2.WinForms.Guna2Button btnForgot;
+        private Guna.UI2.WinForms.Guna2TextBox inputPassword;
+        private Guna.UI2.WinForms.Guna2Button btnForgotPassword;
         private Guna.UI2.WinForms.Guna2Button btnSignIn;
         private Label label1;
         private Guna.UI2.WinForms.Guna2Button btnSignUp;

@@ -59,9 +59,9 @@
             btnGit = new Guna.UI2.WinForms.Guna2Button();
             ShadowPanel = new Guna.UI2.WinForms.Guna2ShadowPanel();
             panel1 = new Panel();
-            btnSignIn = new Guna.UI2.WinForms.Guna2Button();
-            textAgree = new Label();
             btnSignUp = new Guna.UI2.WinForms.Guna2Button();
+            textAgree = new Label();
+            btnPolicy = new Guna.UI2.WinForms.Guna2Button();
             guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             textBoxUsername = new Guna.UI2.WinForms.Guna2TextBox();
@@ -93,6 +93,7 @@
             btnMinimize.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             btnMinimize.Size = new Size(18, 18);
             btnMinimize.TabIndex = 2;
+            btnMinimize.Click += btnMinimize_Click;
             // 
             // btnExit
             // 
@@ -112,6 +113,7 @@
             btnExit.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             btnExit.Size = new Size(18, 18);
             btnExit.TabIndex = 1;
+            btnExit.Click += btnExit_Click;
             // 
             // border
             // 
@@ -200,9 +202,9 @@
             // 
             // panel1
             // 
-            panel1.Controls.Add(btnSignIn);
-            panel1.Controls.Add(textAgree);
             panel1.Controls.Add(btnSignUp);
+            panel1.Controls.Add(textAgree);
+            panel1.Controls.Add(btnPolicy);
             panel1.Controls.Add(guna2TextBox3);
             panel1.Controls.Add(guna2TextBox2);
             panel1.Controls.Add(textBoxUsername);
@@ -212,26 +214,26 @@
             panel1.Size = new Size(720, 269);
             panel1.TabIndex = 0;
             // 
-            // btnSignIn
+            // btnSignUp
             // 
-            btnSignIn.BorderRadius = 8;
-            btnSignIn.CustomizableEdges = customizableEdges7;
-            btnSignIn.DisabledState.BorderColor = Color.DarkGray;
-            btnSignIn.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnSignIn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnSignIn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnSignIn.FillColor = Color.FromArgb(186, 67, 43);
-            btnSignIn.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btnSignIn.ForeColor = Color.FromArgb(225, 228, 231);
-            btnSignIn.HoverState.FillColor = Color.FromArgb(207, 75, 50);
-            btnSignIn.Location = new Point(319, 233);
-            btnSignIn.Margin = new Padding(1);
-            btnSignIn.Name = "btnSignIn";
-            btnSignIn.PressedColor = Color.White;
-            btnSignIn.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            btnSignIn.Size = new Size(80, 30);
-            btnSignIn.TabIndex = 15;
-            btnSignIn.Text = "Запись";
+            btnSignUp.BorderRadius = 8;
+            btnSignUp.CustomizableEdges = customizableEdges7;
+            btnSignUp.DisabledState.BorderColor = Color.DarkGray;
+            btnSignUp.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSignUp.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSignUp.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSignUp.FillColor = Color.FromArgb(186, 67, 43);
+            btnSignUp.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSignUp.ForeColor = Color.FromArgb(225, 228, 231);
+            btnSignUp.HoverState.FillColor = Color.FromArgb(207, 75, 50);
+            btnSignUp.Location = new Point(319, 233);
+            btnSignUp.Margin = new Padding(1);
+            btnSignUp.Name = "btnSignUp";
+            btnSignUp.PressedColor = Color.White;
+            btnSignUp.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            btnSignUp.Size = new Size(80, 30);
+            btnSignUp.TabIndex = 15;
+            btnSignUp.Text = "Запись";
             // 
             // textAgree
             // 
@@ -245,28 +247,28 @@
             textAgree.TabIndex = 13;
             textAgree.Text = "Создавая учетную запись, вы соглашаетесь с";
             // 
-            // btnSignUp
+            // btnPolicy
             // 
-            btnSignUp.BorderRadius = 10;
-            btnSignUp.CustomizableEdges = customizableEdges9;
-            btnSignUp.DisabledState.BorderColor = Color.DarkGray;
-            btnSignUp.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnSignUp.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnSignUp.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnSignUp.FillColor = Color.FromArgb(34, 35, 39);
-            btnSignUp.Font = new Font("Roboto", 11.25F, FontStyle.Underline, GraphicsUnit.Point);
-            btnSignUp.ForeColor = Color.FromArgb(201, 201, 201);
-            btnSignUp.HoverState.FillColor = Color.FromArgb(34, 35, 39);
-            btnSignUp.HoverState.ForeColor = Color.FromArgb(103, 149, 222);
-            btnSignUp.Location = new Point(397, 204);
-            btnSignUp.Margin = new Padding(3, 2, 3, 2);
-            btnSignUp.Name = "btnSignUp";
-            btnSignUp.PressedDepth = 0;
-            btnSignUp.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            btnSignUp.Size = new Size(273, 21);
-            btnSignUp.TabIndex = 14;
-            btnSignUp.Text = "политикой конфиденциальности";
-            btnSignUp.TextOffset = new Point(-10, 0);
+            btnPolicy.BorderRadius = 10;
+            btnPolicy.CustomizableEdges = customizableEdges9;
+            btnPolicy.DisabledState.BorderColor = Color.DarkGray;
+            btnPolicy.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnPolicy.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnPolicy.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnPolicy.FillColor = Color.FromArgb(34, 35, 39);
+            btnPolicy.Font = new Font("Roboto", 11.25F, FontStyle.Underline, GraphicsUnit.Point);
+            btnPolicy.ForeColor = Color.FromArgb(201, 201, 201);
+            btnPolicy.HoverState.FillColor = Color.FromArgb(34, 35, 39);
+            btnPolicy.HoverState.ForeColor = Color.FromArgb(103, 149, 222);
+            btnPolicy.Location = new Point(397, 204);
+            btnPolicy.Margin = new Padding(3, 2, 3, 2);
+            btnPolicy.Name = "btnPolicy";
+            btnPolicy.PressedDepth = 0;
+            btnPolicy.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btnPolicy.Size = new Size(273, 21);
+            btnPolicy.TabIndex = 14;
+            btnPolicy.Text = "политикой конфиденциальности";
+            btnPolicy.TextOffset = new Point(-10, 0);
             // 
             // guna2TextBox3
             // 
@@ -290,7 +292,7 @@
             guna2TextBox3.MaxLength = 254;
             guna2TextBox3.Name = "guna2TextBox3";
             guna2TextBox3.PlaceholderForeColor = Color.FromArgb(161, 161, 170);
-            guna2TextBox3.PlaceholderText = "* Password Confirmation";
+            guna2TextBox3.PlaceholderText = "* Подтверждение пароля";
             guna2TextBox3.SelectedText = "";
             guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2TextBox3.Size = new Size(719, 36);
@@ -319,7 +321,7 @@
             guna2TextBox2.MaxLength = 254;
             guna2TextBox2.Name = "guna2TextBox2";
             guna2TextBox2.PlaceholderForeColor = Color.FromArgb(161, 161, 170);
-            guna2TextBox2.PlaceholderText = "* Password";
+            guna2TextBox2.PlaceholderText = "* Пароль";
             guna2TextBox2.SelectedText = "";
             guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2TextBox2.Size = new Size(719, 36);
@@ -426,6 +428,7 @@
             Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             Name = "SignUpWindow";
+            Opacity = 0D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "SignUpWindow";
             head.ResumeLayout(false);
@@ -451,9 +454,9 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2TextBox textBoxUsername;
-        private Guna.UI2.WinForms.Guna2Button btnSignUp;
+        private Guna.UI2.WinForms.Guna2Button btnPolicy;
         private Label textAgree;
-        private Guna.UI2.WinForms.Guna2Button btnSignIn;
+        private Guna.UI2.WinForms.Guna2Button btnSignUp;
         private Label label2;
         private Guna.UI2.WinForms.Guna2PictureBox pictureLogo;
         private Guna.UI2.WinForms.Guna2GradientPanel head;

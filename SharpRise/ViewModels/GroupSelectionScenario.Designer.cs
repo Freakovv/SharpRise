@@ -176,7 +176,6 @@
             TabControl.TabIndex = 5;
             TabControl.TabMenuBackColor = Color.FromArgb(33, 42, 57);
             TabControl.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
-            TabControl.TabMenuVisible = false;
             // 
             // pgSelect
             // 
@@ -186,10 +185,10 @@
             pgSelect.Controls.Add(btnGroups);
             pgSelect.Controls.Add(textPrompt);
             pgSelect.Controls.Add(textChoice);
-            pgSelect.Location = new Point(4, 5);
+            pgSelect.Location = new Point(4, 44);
             pgSelect.Name = "pgSelect";
             pgSelect.Padding = new Padding(3);
-            pgSelect.Size = new Size(1232, 626);
+            pgSelect.Size = new Size(1232, 587);
             pgSelect.TabIndex = 0;
             pgSelect.Text = "pgSelect";
             // 
@@ -294,10 +293,10 @@
             pgInviteCode.Controls.Add(guna2Panel2);
             pgInviteCode.Controls.Add(guna2Panel1);
             pgInviteCode.Controls.Add(textInstruictions1);
-            pgInviteCode.Location = new Point(4, 5);
+            pgInviteCode.Location = new Point(4, 44);
             pgInviteCode.Name = "pgInviteCode";
             pgInviteCode.Padding = new Padding(3);
-            pgInviteCode.Size = new Size(1232, 626);
+            pgInviteCode.Size = new Size(1232, 587);
             pgInviteCode.TabIndex = 1;
             pgInviteCode.Text = "pgInviteCode";
             // 

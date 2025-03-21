@@ -21,7 +21,7 @@ namespace SharpRise.View
         public double OpacityStep { get; set; } = 0.1;
         public int TimerInterval { get; set; } = 20;
 
-        public Form FormProperty { get; private set; }
+        public Form FormProperty { get; set; }
 
         public event EventHandler AnimationCompleted;
 

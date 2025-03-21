@@ -1,4 +1,6 @@
 ﻿using SharpRise.View;
+using SharpRise.ViewModels;
+using SharpRiseIntegration;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,6 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Guna.UI2.AnimatorNS;
 
 namespace SharpRise
 {
@@ -22,7 +25,6 @@ namespace SharpRise
             animation.FadeIn();
         }
 
-
         private void btnMinimize_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
@@ -30,6 +32,20 @@ namespace SharpRise
         private void btnExit_Click(object sender, EventArgs e)
         {
             Dispose();
+        }
+
+        private void btnSignUp_Click(object sender, EventArgs e)
+        {
+            SignUpWindow signUpWindow = new SignUpWindow();
+            FadeAnimation fadeAnimation = new FadeAnimation(this);
+
+            fadeAnimation.FadeOut();
+
+            signUpWindow.Show();
+            this.Hide();
+
+            fadeAnimation.FormProperty = signUpWindow;
+            fadeAnimation.FadeIn();
         }
     }
 }
