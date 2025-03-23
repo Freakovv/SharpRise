@@ -21,22 +21,22 @@ public class RegexValidator
 
     /// Проверяет пароль на соответствие требованиям и возвращает сообщение об ошибке.
     /// <returns>Сообщение об ошибке или null, если пароль валиден.</returns>
-    public static string ValidatePassword(string password)
+    public static string? ValidatePassword(string password)
     {
-        if (string.IsNullOrWhiteSpace(password))
-            return "Password cannot be empty.";
+        if (string.IsNullOrWhiteSpace(password)) 
+            return "Пароль не может быть пустым.";
 
         if (password.Length < 8)
-            return "Password must be at least 8 characters long.";
+            return "Пароль должен быть длиной не менее 8 символов.";
 
         if (!Regex.IsMatch(password, @"[a-z]"))
-            return "Password must contain at least one lowercase letter.";
+            return "Пароль должен содержать хотя бы одну строчную букву.";
 
         if (!Regex.IsMatch(password, @"[A-Z]"))
-            return "Password must contain at least one uppercase letter.";
+            return "Пароль должен содержать хотя бы одну заглавную букву.";
 
         if (!Regex.IsMatch(password, @"\d"))
-            return "Password must contain at least one digit.";
+            return "Пароль должен содержать хотя бы одну цифру.";
 
         // Если все проверки пройдены
         return null;
