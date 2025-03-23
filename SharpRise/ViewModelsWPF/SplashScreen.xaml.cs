@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Media.Animation;
 
-namespace SharpRiseIntegration.ViewModelsWPF
+namespace SharpRise.ViewModelsWPF
 {
     public partial class SplashScreen : Window
     {

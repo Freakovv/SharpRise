@@ -234,6 +234,7 @@
             btnSignUp.Size = new Size(80, 30);
             btnSignUp.TabIndex = 15;
             btnSignUp.Text = "Запись";
+            btnSignUp.Click += btnSignUp_Click;
             // 
             // textAgree
             // 
@@ -347,7 +348,7 @@
             textBoxUsername.IconLeft = Properties.Resources.person;
             textBoxUsername.Location = new Point(0, 52);
             textBoxUsername.Margin = new Padding(10, 3, 10, 3);
-            textBoxUsername.MaxLength = 10;
+            textBoxUsername.MaxLength = 30;
             textBoxUsername.Name = "textBoxUsername";
             textBoxUsername.PlaceholderForeColor = Color.FromArgb(161, 161, 170);
             textBoxUsername.PlaceholderText = "* Username";

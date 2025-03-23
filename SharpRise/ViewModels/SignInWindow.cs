@@ -1,6 +1,5 @@
 ﻿using SharpRise.View;
 using SharpRise.ViewModels;
-using SharpRiseIntegration;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,7 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Guna.UI2.AnimatorNS;
 
-namespace SharpRise
+namespace SharpRise.ViewModels
 {
     internal partial class SignInWindow : Form
     {
@@ -36,6 +35,7 @@ namespace SharpRise
 
         private void btnSignUp_Click(object sender, EventArgs e)
         {
+            // Transition
             SignUpWindow signUpWindow = new SignUpWindow();
             FadeAnimation fadeAnimation = new FadeAnimation(this);
 

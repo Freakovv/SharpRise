@@ -1,4 +1,4 @@
-﻿namespace SharpRise
+﻿namespace SharpRise.ViewModels
 {
     partial class SignInWindow
     {
@@ -36,8 +36,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignInWindow));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -60,7 +58,6 @@
             layoutMainWindow = new TableLayoutPanel();
             btnGit = new Guna.UI2.WinForms.Guna2Button();
             label2 = new Label();
-            btnLanguage = new Guna.UI2.WinForms.Guna2Button();
             head = new Guna.UI2.WinForms.Guna2GradientPanel();
             btnMinimize = new Guna.UI2.WinForms.Guna2CircleButton();
             btnExit = new Guna.UI2.WinForms.Guna2CircleButton();
@@ -210,6 +207,7 @@
             // 
             // inputPassword
             // 
+            inputPassword.Animated = true;
             inputPassword.BorderColor = Color.FromArgb(63, 63, 70);
             inputPassword.BorderRadius = 10;
             customizableEdges11.TopLeft = false;
@@ -239,6 +237,7 @@
             // 
             // inputLogin
             // 
+            inputLogin.Animated = true;
             inputLogin.BorderColor = Color.FromArgb(63, 63, 70);
             inputLogin.BorderRadius = 10;
             customizableEdges13.BottomLeft = false;
@@ -352,7 +351,6 @@
             layoutMainWindow.Controls.Add(ShadowPanel, 1, 0);
             layoutMainWindow.Controls.Add(btnGit, 2, 1);
             layoutMainWindow.Controls.Add(label2, 0, 1);
-            layoutMainWindow.Controls.Add(btnLanguage, 0, 0);
             layoutMainWindow.Location = new Point(0, 26);
             layoutMainWindow.Margin = new Padding(3, 2, 3, 2);
             layoutMainWindow.Name = "layoutMainWindow";
@@ -400,28 +398,6 @@
             label2.Size = new Size(91, 18);
             label2.TabIndex = 3;
             label2.Text = "© SharpRise";
-            // 
-            // btnLanguage
-            // 
-            btnLanguage.BorderColor = Color.Gray;
-            btnLanguage.BorderRadius = 10;
-            btnLanguage.BorderThickness = 1;
-            btnLanguage.CustomizableEdges = customizableEdges21;
-            btnLanguage.DisabledState.BorderColor = Color.DarkGray;
-            btnLanguage.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnLanguage.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnLanguage.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnLanguage.FillColor = Color.FromArgb(39, 39, 41);
-            btnLanguage.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            btnLanguage.ForeColor = Color.White;
-            btnLanguage.HoverState.FillColor = Color.FromArgb(24, 24, 27);
-            btnLanguage.Location = new Point(10, 10);
-            btnLanguage.Margin = new Padding(10, 10, 3, 2);
-            btnLanguage.Name = "btnLanguage";
-            btnLanguage.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            btnLanguage.Size = new Size(49, 26);
-            btnLanguage.TabIndex = 1;
-            btnLanguage.Text = "RU";
             // 
             // head
             // 
@@ -522,7 +498,6 @@
         private Guna.UI2.WinForms.Guna2ShadowPanel ShadowPanel;
         private TableLayoutPanel layoutMainWindow;
         private Guna.UI2.WinForms.Guna2GradientPanel head;
-        private Guna.UI2.WinForms.Guna2Button btnLanguage;
         private Guna.UI2.WinForms.Guna2CircleButton btnExit;
         private Guna.UI2.WinForms.Guna2CircleButton btnMinimize;
         private TableLayoutPanel layoutItems;

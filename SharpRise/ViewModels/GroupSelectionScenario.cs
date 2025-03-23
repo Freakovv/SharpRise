@@ -52,5 +52,19 @@ namespace SharpRise.ViewModels
             TabControl.SelectTab(pgSelect);
             inputInviteCode.Clear();
         }
+
+        private void inputInviteCode_TextChanged(object sender, EventArgs e)
+        {
+            string text = inputInviteCode.Text.Replace(" ", "").Replace("-", "");
+
+            if (text.Length > 4)
+            {
+                text = text.Insert(4, "-");
+            }
+
+            inputInviteCode.Text = text;
+
+            inputInviteCode.SelectionStart = inputInviteCode.Text.Length;
+        }
     }
 }
