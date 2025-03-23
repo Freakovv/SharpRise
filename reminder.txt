@@ -1,0 +1,6 @@
+Commands for performing migrations:
+
+Add-Migration InitialCreate
+Remove-Migration
+
+Update-Database
