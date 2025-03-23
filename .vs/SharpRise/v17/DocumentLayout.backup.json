@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\viewmodels\\groupselectionscenario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\groupselectionscenario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,16 +22,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GroupSelectionScenario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.Designer.cs",
+              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\GroupSelectionScenario.Designer.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.Designer.cs",
+              "RelativeToolTip": "SharpRise\\ViewModels\\GroupSelectionScenario.Designer.cs",
+              "ViewState": "AgIAAM8BAAAAAAAAAAAswOYBAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T16:14:54.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroupSelectionScenario.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "RelativeToolTip": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T16:14:36.891Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
               "RelativeDocumentMoniker": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
-              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "SharpRise\\ViewModels\\GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "SharpRise\\ViewModels\\GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T16:07:11.159Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
