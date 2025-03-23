@@ -38,3 +38,6 @@ x64/
 
 # Visual cache files
 ipch/
+
+# My test console proj
+test/
