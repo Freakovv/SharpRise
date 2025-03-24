@@ -64,7 +64,7 @@ namespace SharpRise.View
             }
             else
             {
-                FormProperty.Opacity += (_targetOpacity > FormProperty.Opacity) ? OpacityStep : -OpacityStep;
+                FormProperty.Opacity += _targetOpacity > FormProperty.Opacity ? OpacityStep : -OpacityStep;
             }
         }
 

@@ -15,9 +15,9 @@ namespace SharpRise.View
 
         internal SharpRiseMessageDialog(Form parent)
         {
-            this.Parent = parent;
-            this.Caption = "SharpRise";
-            this.Style = MessageDialogStyle.Dark;
+            Parent = parent;
+            Caption = "SharpRise";
+            Style = MessageDialogStyle.Dark;
         }
 
         ~SharpRiseMessageDialog()
@@ -28,66 +28,66 @@ namespace SharpRise.View
 
         public void ShowWarning(string text, string caption="Внимание")
         {
-            this.Icon = MessageDialogIcon.Warning;
-            this.Caption = caption;
-            this.Text = text;
-            this.Buttons = MessageDialogButtons.OK;
-            this.Show();
+            Icon = MessageDialogIcon.Warning;
+            Caption = caption;
+            Text = text;
+            Buttons = MessageDialogButtons.OK;
+            Show();
         }
 
         public void ShowWarning()
         {
-            this.Icon = MessageDialogIcon.Warning;
-            this.Buttons = MessageDialogButtons.OK;
-            this.Show();
+            Icon = MessageDialogIcon.Warning;
+            Buttons = MessageDialogButtons.OK;
+            Show();
         }
 
         public void ShowError(string text, string caption="Ошибка")
         {
-            this.Icon = MessageDialogIcon.Error;
-            this.Caption = caption;
-            this.Text = text;
-            this.Buttons = MessageDialogButtons.OK;
-            this.Show();
+            Icon = MessageDialogIcon.Error;
+            Caption = caption;
+            Text = text;
+            Buttons = MessageDialogButtons.OK;
+            Show();
         }
 
         public void ShowError()
         {
-            this.Icon = MessageDialogIcon.Error;
-            this.Buttons = MessageDialogButtons.OK;
-            this.Show();
+            Icon = MessageDialogIcon.Error;
+            Buttons = MessageDialogButtons.OK;
+            Show();
         }
 
         public void AskQuestion(string text, string caption="Вопрос")
         {
-            this.Icon = MessageDialogIcon.Question;
-            this.Caption = caption;
-            this.Text = text;
+            Icon = MessageDialogIcon.Question;
+            Caption = caption;
+            Text = text;
 
-            this.Show();
+            Show();
         }
 
         public void AskQuestion()
         {
-            this.Icon = MessageDialogIcon.Question;
-            this.Buttons = MessageDialogButtons.YesNo;
-            this.Show();
+            Icon = MessageDialogIcon.Question;
+            Buttons = MessageDialogButtons.YesNo;
+            Show();
         }
 
         public void ShowInfo(string text, string caption="Информация")
         {
-            this.Icon = MessageDialogIcon.Information;
-            this.Caption = caption;
-            this.Text = text;
-            this.Buttons = MessageDialogButtons.OK;
-            this.Show();
+            Icon = MessageDialogIcon.Information;
+            Caption = caption;
+            Text = text;
+            Buttons = MessageDialogButtons.OK;
+            Show();
         }
 
         public void ShowInfo()
         {
-            this.Icon = MessageDialogIcon.Information;
-            this.Buttons = MessageDialogButtons.OK;
-            this.Show();
+            Icon = MessageDialogIcon.Information;
+            Buttons = MessageDialogButtons.OK;
+            Show();
         }
     }
 }

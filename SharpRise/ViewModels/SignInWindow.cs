@@ -1,5 +1,4 @@
-﻿using SharpRise.View;
-using SharpRise.ViewModels;
+﻿using SharpRise.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Guna.UI2.AnimatorNS;
+using SharpRise.View;
 
 namespace SharpRise.ViewModels
 {
