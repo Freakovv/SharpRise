@@ -33,21 +33,22 @@ namespace SharpRise.Models.Users
 
         public int TeacherId { get; set; } // Внешний ключ
         public Teacher Teacher { get; set; } // Навигационное свойство
-        //internal static string GenerateInviteCode()
-        //{
-        //    Random _random = new Random();
-        //    string Letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        //    string Numbers = "0123456789";
 
-        //    var letterPart = new string(Enumerable.Repeat(Letters, 4)
-        //       .Select(s => s[_random.Next(s.Length)])
-        //       .ToArray());
+        internal static string GenerateInviteCode()
+        {
+            Random _random = new Random();
+            string Letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            string Numbers = "0123456789";
 
-        //    var numberPart = new string(Enumerable.Repeat(Numbers, 4)
-        //        .Select(s => s[_random.Next(s.Length)])
-        //        .ToArray());
+            var letterPart = new string(Enumerable.Repeat(Letters, 4)
+               .Select(s => s[_random.Next(s.Length)])
+               .ToArray());
 
-        //    return $"{letterPart}-{numberPart}";
-        //}
+            var numberPart = new string(Enumerable.Repeat(Numbers, 4)
+                .Select(s => s[_random.Next(s.Length)])
+                .ToArray());
+
+            return $"{letterPart}-{numberPart}";
+        }
     }
 }
