@@ -4,3 +4,6 @@ Add-Migration InitialCreate
 Remove-Migration
 
 Update-Database
+
+Pkg:
+dotnet add package BCrypt.Net-Next
