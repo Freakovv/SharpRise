@@ -1,8 +1,7 @@
 ﻿using SharpRise.Models.Data;
 using SharpRise.Models.Users;
 using Microsoft.EntityFrameworkCore;
-using SharpRise.Models.Services;
-using SharpRise.Security;
+using SharpRise.Models.Security;
 
 namespace SharpRise.Models.Services
 {
@@ -23,7 +22,7 @@ namespace SharpRise.Models.Services
             var teacher = new Teacher
             {
                 Username = username,
-                Password = PasswordHasher.HashPassword(password), 
+                Password = Hasher.HashPassword(password), 
                 Email = email
             };
 
@@ -38,7 +37,7 @@ namespace SharpRise.Models.Services
             if (teacher == null)
                 return false;
 
-            return PasswordHasher.VerifyPassword(password, teacher.Password);
+            return Hasher.VerifyPassword(password, teacher.Password);
         }
 
     }

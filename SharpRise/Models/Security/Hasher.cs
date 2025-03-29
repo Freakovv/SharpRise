@@ -1,9 +1,9 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace SharpRise.Security
+namespace SharpRise.Models.Security
 {
-    public static class PasswordHasher
+    public static class Hasher
     {
         public static string HashPassword(string password)
         {
