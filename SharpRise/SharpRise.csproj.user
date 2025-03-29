@@ -5,6 +5,9 @@
     <Compile Update="ViewModelsWPF\SplashScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ViewModels\ErrorDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ViewModels\GroupSelectionScenario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -22,5 +25,10 @@
     <EmbeddedResource Update="ViewModels\GroupSelectionScenario.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ViewModels\ErrorDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>
