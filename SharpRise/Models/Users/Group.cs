@@ -12,7 +12,7 @@ namespace SharpRise.Models.Users
         [Key] 
         public int Id { get; set; }
 
-        [MaxLength(50)] // SharpRise стандарт
+        [MaxLength(20)] // SharpRise стандарт
         public required string Name { get; set; }
 
         [MaxLength(200)] // SharpRise стандарт

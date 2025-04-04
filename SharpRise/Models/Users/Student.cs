@@ -20,5 +20,15 @@ namespace SharpRise.Models.Users
 
         // Навигационное свойство для связи "многие ко многим"
         public ICollection<Group> Groups { get; set; } = new List<Group>();
+
+        public Student Parse(Teacher teacher)
+        {
+            Id = teacher.Id;
+            Username = teacher.Username;
+            Password = teacher.Password;
+            Email = teacher.Email;
+            Groups = teacher.Groups;
+            return this;
+        }
     }
 }

@@ -14,6 +14,7 @@ namespace SharpRise.Models.Services
             _context = context;
         }
 
+        // TODO: Функция для примера, нужно переделать полностью
         public async Task<bool> RegisterTeacherAsync(string username, string password, string email)
         {
             if (await _context.Teachers.AnyAsync(t => t.Username == username || t.Email == email))
@@ -31,6 +32,9 @@ namespace SharpRise.Models.Services
             return true;
         }
 
+        //public async Task<bool> RegisterAsync(string username, string password, string email)
+
+        // TODO: Функция для примера, нужно переделать полностью
         public async Task<bool> LoginAsync(string username, string password)
         {
             var teacher = await _context.Teachers.FirstOrDefaultAsync(t => t.Username == username);

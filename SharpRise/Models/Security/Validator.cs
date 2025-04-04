@@ -43,5 +43,32 @@ namespace SharpRise.Models.Security
             // Если все проверки пройдены
             return null;
         }
+
+        internal static bool ValidateInviteCode(string code)
+        {
+            if (string.IsNullOrEmpty(code))
+                return false;
+            if (code.Length != 9)
+                return false;
+            if (code[4] != '-')
+                return false;
+
+            string lettersPart = code.Substring(0, 4);
+            string numbersPart = code.Substring(5, 4);
+
+            foreach (char c in lettersPart)
+            {
+                if (c < 'A' || c > 'Z')
+                    return false;
+            }
+
+            foreach (char c in numbersPart)
+            {
+                if (c < '0' || c > '9')
+                    return false;
+            }
+
+            return true;
+        }
     }
 }
