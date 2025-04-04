@@ -10,7 +10,7 @@ using Microsoft.VisualBasic;
 namespace SharpRise.View
 {
     // This is a custom dialog message class, created to reduce extra code
-    public class SharpRiseMessageDialog : Guna2MessageDialog
+    internal class SharpRiseMessageDialog : Guna2MessageDialog
     {
 
         internal SharpRiseMessageDialog(Form parent)
@@ -22,7 +22,6 @@ namespace SharpRise.View
 
         ~SharpRiseMessageDialog()
         {
-            
             Dispose();
         }
 
@@ -58,20 +57,21 @@ namespace SharpRise.View
             Show();
         }
 
-        public void AskQuestion(string text, string caption="Вопрос")
+        public DialogResult AskQuestion(string text, string caption = "Вопрос")
         {
             Icon = MessageDialogIcon.Question;
             Caption = caption;
             Text = text;
+            Buttons = MessageDialogButtons.YesNo;
 
-            Show();
+            return Show();
         }
 
-        public void AskQuestion()
+        public DialogResult AskQuestion()
         {
             Icon = MessageDialogIcon.Question;
             Buttons = MessageDialogButtons.YesNo;
-            Show();
+            return Show();
         }
 
         public void ShowInfo(string text, string caption="Информация")

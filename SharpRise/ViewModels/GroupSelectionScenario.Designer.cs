@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -53,34 +53,72 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GroupSelectionScenario));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             border = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
             head = new Guna.UI2.WinForms.Guna2GradientPanel();
             btnMinimize = new Guna.UI2.WinForms.Guna2CircleButton();
             btnExit = new Guna.UI2.WinForms.Guna2CircleButton();
             TabControl = new Guna.UI2.WinForms.Guna2TabControl();
             pgSelect = new TabPage();
+            btnTeacher = new Label();
+            labelTeacher = new Label();
             btnIndependent = new Guna.UI2.WinForms.Guna2TileButton();
-            CheckBoxDoNotAskAgain = new Guna.UI2.WinForms.Guna2CheckBox();
             btnGroups = new Guna.UI2.WinForms.Guna2TileButton();
             textPrompt = new Label();
             textChoice = new Label();
             pgInviteCode = new TabPage();
-            btnCancel = new Guna.UI2.WinForms.Guna2Button();
-            btnEnterCode = new Guna.UI2.WinForms.Guna2Button();
+            btnCancel1 = new Guna.UI2.WinForms.Guna2Button();
+            btnEnter1 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             label5 = new Label();
-            label4 = new Label();
+            label6 = new Label();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            label3 = new Label();
             label2 = new Label();
-            inputInviteCode = new Guna.UI2.WinForms.Guna2TextBox();
+            label3 = new Label();
+            inputInviteCode1 = new Guna.UI2.WinForms.Guna2TextBox();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             btnChangeAccount = new Guna.UI2.WinForms.Guna2Button();
             textEmail = new Label();
             guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             textUsername = new Label();
+            label = new Label();
+            label4 = new Label();
+            teacherReg = new TabPage();
+            btnCancel2 = new Guna.UI2.WinForms.Guna2Button();
+            btnSkip = new Guna.UI2.WinForms.Guna2Button();
+            btnEnter2 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            label13 = new Label();
+            btnGenerateCode = new Guna.UI2.WinForms.Guna2ImageButton();
+            inputInviteCode2 = new Guna.UI2.WinForms.Guna2TextBox();
+            label12 = new Label();
+            label11 = new Label();
+            label9 = new Label();
+            label10 = new Label();
+            inputGroupName = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            btnChangeAccount1 = new Guna.UI2.WinForms.Guna2Button();
             label1 = new Label();
-            textInstruictions1 = new Label();
+            guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            label7 = new Label();
+            label8 = new Label();
             dragMainWindow = new Guna.UI2.WinForms.Guna2DragControl(components);
             head.SuspendLayout();
             TabControl.SuspendLayout();
@@ -89,6 +127,10 @@
             guna2Panel2.SuspendLayout();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).BeginInit();
+            teacherReg.SuspendLayout();
+            guna2Panel4.SuspendLayout();
+            guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox2).BeginInit();
             SuspendLayout();
             // 
             // border
@@ -103,11 +145,11 @@
             head.BackColor = Color.FromArgb(22, 23, 27);
             head.Controls.Add(btnMinimize);
             head.Controls.Add(btnExit);
-            head.CustomizableEdges = customizableEdges22;
+            head.CustomizableEdges = customizableEdges40;
             head.Dock = DockStyle.Top;
             head.Location = new Point(0, 0);
             head.Name = "head";
-            head.ShadowDecoration.CustomizableEdges = customizableEdges23;
+            head.ShadowDecoration.CustomizableEdges = customizableEdges41;
             head.Size = new Size(1264, 30);
             head.TabIndex = 4;
             // 
@@ -125,7 +167,7 @@
             btnMinimize.Image = Properties.Resources.minimize;
             btnMinimize.Location = new Point(1216, 6);
             btnMinimize.Name = "btnMinimize";
-            btnMinimize.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            btnMinimize.ShadowDecoration.CustomizableEdges = customizableEdges38;
             btnMinimize.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             btnMinimize.Size = new Size(18, 18);
             btnMinimize.TabIndex = 2;
@@ -145,7 +187,7 @@
             btnExit.Image = Properties.Resources.close;
             btnExit.Location = new Point(1239, 6);
             btnExit.Name = "btnExit";
-            btnExit.ShadowDecoration.CustomizableEdges = customizableEdges21;
+            btnExit.ShadowDecoration.CustomizableEdges = customizableEdges39;
             btnExit.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             btnExit.Size = new Size(18, 18);
             btnExit.TabIndex = 1;
@@ -155,6 +197,7 @@
             // 
             TabControl.Controls.Add(pgSelect);
             TabControl.Controls.Add(pgInviteCode);
+            TabControl.Controls.Add(teacherReg);
             TabControl.ItemSize = new Size(180, 40);
             TabControl.Location = new Point(12, 31);
             TabControl.Name = "TabControl";
@@ -183,8 +226,9 @@
             // pgSelect
             // 
             pgSelect.BackColor = Color.FromArgb(22, 23, 27);
+            pgSelect.Controls.Add(btnTeacher);
+            pgSelect.Controls.Add(labelTeacher);
             pgSelect.Controls.Add(btnIndependent);
-            pgSelect.Controls.Add(CheckBoxDoNotAskAgain);
             pgSelect.Controls.Add(btnGroups);
             pgSelect.Controls.Add(textPrompt);
             pgSelect.Controls.Add(textChoice);
@@ -194,6 +238,31 @@
             pgSelect.Size = new Size(1232, 587);
             pgSelect.TabIndex = 0;
             pgSelect.Text = "pgSelect";
+            // 
+            // btnTeacher
+            // 
+            btnTeacher.AutoSize = true;
+            btnTeacher.Font = new Font("Roboto", 9F, FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
+            btnTeacher.ForeColor = Color.Gray;
+            btnTeacher.Location = new Point(704, 489);
+            btnTeacher.Name = "btnTeacher";
+            btnTeacher.Size = new Size(41, 14);
+            btnTeacher.TabIndex = 7;
+            btnTeacher.Text = "здесь.";
+            btnTeacher.TextAlign = ContentAlignment.MiddleCenter;
+            btnTeacher.Click += btnTeacher_Click;
+            // 
+            // labelTeacher
+            // 
+            labelTeacher.AutoSize = true;
+            labelTeacher.Font = new Font("Roboto", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            labelTeacher.ForeColor = Color.Gray;
+            labelTeacher.Location = new Point(514, 489);
+            labelTeacher.Name = "labelTeacher";
+            labelTeacher.Size = new Size(194, 14);
+            labelTeacher.TabIndex = 6;
+            labelTeacher.Text = "Если вы преподаватель нажмите";
+            labelTeacher.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // btnIndependent
             // 
@@ -218,25 +287,6 @@
             btnIndependent.Text = "Самостоятельно";
             btnIndependent.TextOffset = new Point(0, 30);
             btnIndependent.Click += btnIndependent_Click;
-            // 
-            // CheckBoxDoNotAskAgain
-            // 
-            CheckBoxDoNotAskAgain.Animated = true;
-            CheckBoxDoNotAskAgain.AutoSize = true;
-            CheckBoxDoNotAskAgain.CheckedState.BorderColor = Color.FromArgb(186, 67, 43);
-            CheckBoxDoNotAskAgain.CheckedState.BorderRadius = 0;
-            CheckBoxDoNotAskAgain.CheckedState.BorderThickness = 0;
-            CheckBoxDoNotAskAgain.CheckedState.FillColor = Color.FromArgb(186, 67, 43);
-            CheckBoxDoNotAskAgain.ForeColor = Color.White;
-            CheckBoxDoNotAskAgain.Location = new Point(529, 477);
-            CheckBoxDoNotAskAgain.Name = "CheckBoxDoNotAskAgain";
-            CheckBoxDoNotAskAgain.Size = new Size(193, 22);
-            CheckBoxDoNotAskAgain.TabIndex = 4;
-            CheckBoxDoNotAskAgain.Text = "Больше не спрашивать";
-            CheckBoxDoNotAskAgain.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
-            CheckBoxDoNotAskAgain.UncheckedState.BorderRadius = 0;
-            CheckBoxDoNotAskAgain.UncheckedState.BorderThickness = 0;
-            CheckBoxDoNotAskAgain.UncheckedState.FillColor = Color.FromArgb(125, 137, 149);
             // 
             // btnGroups
             // 
@@ -289,14 +339,14 @@
             // pgInviteCode
             // 
             pgInviteCode.BackColor = Color.FromArgb(22, 23, 27);
-            pgInviteCode.Controls.Add(btnCancel);
-            pgInviteCode.Controls.Add(btnEnterCode);
+            pgInviteCode.Controls.Add(btnCancel1);
+            pgInviteCode.Controls.Add(btnEnter1);
             pgInviteCode.Controls.Add(guna2Button1);
             pgInviteCode.Controls.Add(label5);
-            pgInviteCode.Controls.Add(label4);
+            pgInviteCode.Controls.Add(label6);
             pgInviteCode.Controls.Add(guna2Panel2);
             pgInviteCode.Controls.Add(guna2Panel1);
-            pgInviteCode.Controls.Add(textInstruictions1);
+            pgInviteCode.Controls.Add(label4);
             pgInviteCode.Location = new Point(4, 44);
             pgInviteCode.Name = "pgInviteCode";
             pgInviteCode.Padding = new Padding(3);
@@ -304,48 +354,49 @@
             pgInviteCode.TabIndex = 1;
             pgInviteCode.Text = "pgInviteCode";
             // 
-            // btnCancel
+            // btnCancel1
             // 
-            btnCancel.BorderRadius = 8;
-            btnCancel.CustomizableEdges = customizableEdges5;
-            btnCancel.DisabledState.BorderColor = Color.DarkGray;
-            btnCancel.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnCancel.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnCancel.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnCancel.FillColor = Color.FromArgb(186, 67, 43);
-            btnCancel.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btnCancel.ForeColor = Color.FromArgb(225, 228, 231);
-            btnCancel.HoverState.FillColor = Color.FromArgb(207, 75, 50);
-            btnCancel.Location = new Point(963, 553);
-            btnCancel.Margin = new Padding(1);
-            btnCancel.Name = "btnCancel";
-            btnCancel.PressedColor = Color.White;
-            btnCancel.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            btnCancel.Size = new Size(127, 30);
-            btnCancel.TabIndex = 20;
-            btnCancel.Text = "Отмена";
-            btnCancel.Click += btnCancel_Click;
+            btnCancel1.BorderRadius = 8;
+            btnCancel1.CustomizableEdges = customizableEdges5;
+            btnCancel1.DisabledState.BorderColor = Color.DarkGray;
+            btnCancel1.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnCancel1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnCancel1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnCancel1.FillColor = Color.FromArgb(186, 67, 43);
+            btnCancel1.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCancel1.ForeColor = Color.FromArgb(225, 228, 231);
+            btnCancel1.HoverState.FillColor = Color.FromArgb(207, 75, 50);
+            btnCancel1.Location = new Point(963, 553);
+            btnCancel1.Margin = new Padding(1);
+            btnCancel1.Name = "btnCancel1";
+            btnCancel1.PressedColor = Color.White;
+            btnCancel1.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            btnCancel1.Size = new Size(127, 30);
+            btnCancel1.TabIndex = 20;
+            btnCancel1.Text = "Отмена";
+            btnCancel1.Click += btnCancel_Click;
             // 
-            // btnEnterCode
+            // btnEnter1
             // 
-            btnEnterCode.BorderRadius = 8;
-            btnEnterCode.CustomizableEdges = customizableEdges7;
-            btnEnterCode.DisabledState.BorderColor = Color.DarkGray;
-            btnEnterCode.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnEnterCode.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnEnterCode.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnEnterCode.FillColor = Color.FromArgb(186, 67, 43);
-            btnEnterCode.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btnEnterCode.ForeColor = Color.FromArgb(225, 228, 231);
-            btnEnterCode.HoverState.FillColor = Color.FromArgb(207, 75, 50);
-            btnEnterCode.Location = new Point(1099, 553);
-            btnEnterCode.Margin = new Padding(1);
-            btnEnterCode.Name = "btnEnterCode";
-            btnEnterCode.PressedColor = Color.White;
-            btnEnterCode.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            btnEnterCode.Size = new Size(127, 30);
-            btnEnterCode.TabIndex = 19;
-            btnEnterCode.Text = "Продолжить";
+            btnEnter1.BorderRadius = 8;
+            btnEnter1.CustomizableEdges = customizableEdges7;
+            btnEnter1.DisabledState.BorderColor = Color.DarkGray;
+            btnEnter1.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnEnter1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnEnter1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnEnter1.FillColor = Color.FromArgb(186, 67, 43);
+            btnEnter1.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnEnter1.ForeColor = Color.FromArgb(225, 228, 231);
+            btnEnter1.HoverState.FillColor = Color.FromArgb(207, 75, 50);
+            btnEnter1.Location = new Point(1099, 553);
+            btnEnter1.Margin = new Padding(1);
+            btnEnter1.Name = "btnEnter1";
+            btnEnter1.PressedColor = Color.White;
+            btnEnter1.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            btnEnter1.Size = new Size(127, 30);
+            btnEnter1.TabIndex = 19;
+            btnEnter1.Text = "Продолжить";
+            btnEnter1.Click += BtnEnter1_Click;
             // 
             // guna2Button1
             // 
@@ -380,26 +431,26 @@
             label5.Text = "• Используйте аккаунт с правом доступа.";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label4
+            // label6
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(16, 493);
-            label4.Name = "label4";
-            label4.Size = new Size(546, 18);
-            label4.TabIndex = 5;
-            label4.Text = "• Введите код курса, состоящий из 8 букв или цифр и одного спецсимвола.";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
+            label6.AutoSize = true;
+            label6.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = Color.White;
+            label6.Location = new Point(16, 493);
+            label6.Name = "label6";
+            label6.Size = new Size(528, 18);
+            label6.TabIndex = 5;
+            label6.Text = "• Введите код курса, состоящий из 8 букв и цифр и одного спецсимвола.";
+            label6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // guna2Panel2
             // 
             guna2Panel2.BorderColor = Color.Gray;
             guna2Panel2.BorderRadius = 10;
             guna2Panel2.BorderThickness = 1;
-            guna2Panel2.Controls.Add(label3);
             guna2Panel2.Controls.Add(label2);
-            guna2Panel2.Controls.Add(inputInviteCode);
+            guna2Panel2.Controls.Add(label3);
+            guna2Panel2.Controls.Add(inputInviteCode1);
             guna2Panel2.CustomizableEdges = customizableEdges13;
             guna2Panel2.Location = new Point(6, 210);
             guna2Panel2.Name = "guna2Panel2";
@@ -407,59 +458,59 @@
             guna2Panel2.Size = new Size(1220, 178);
             guna2Panel2.TabIndex = 4;
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Roboto", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(17, 28);
-            label3.Name = "label3";
-            label3.Size = new Size(142, 29);
-            label3.TabIndex = 5;
-            label3.Text = "Код группы";
-            // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Roboto Light", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Font = new Font("Roboto", 18F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(20, 57);
+            label2.Location = new Point(17, 28);
             label2.Name = "label2";
-            label2.Size = new Size(332, 14);
-            label2.TabIndex = 3;
-            label2.Text = "Введите код группы (его можно узнать у преподавателя).";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
+            label2.Size = new Size(142, 29);
+            label2.TabIndex = 5;
+            label2.Text = "Код группы";
             // 
-            // inputInviteCode
+            // label3
             // 
-            inputInviteCode.Animated = true;
-            inputInviteCode.BorderColor = Color.Empty;
-            inputInviteCode.BorderRadius = 5;
-            inputInviteCode.CharacterCasing = CharacterCasing.Upper;
-            inputInviteCode.CustomizableEdges = customizableEdges11;
-            inputInviteCode.DefaultText = "";
-            inputInviteCode.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            inputInviteCode.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            inputInviteCode.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            inputInviteCode.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            inputInviteCode.FillColor = Color.FromArgb(20, 20, 20);
-            inputInviteCode.FocusedState.BorderColor = Color.FromArgb(63, 63, 70);
-            inputInviteCode.FocusedState.FillColor = Color.FromArgb(30, 30, 30);
-            inputInviteCode.Font = new Font("Roboto", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            inputInviteCode.HoverState.FillColor = Color.Black;
-            inputInviteCode.IconLeft = Properties.Resources.key;
-            inputInviteCode.Location = new Point(21, 102);
-            inputInviteCode.Margin = new Padding(10, 3, 10, 3);
-            inputInviteCode.MaxLength = 9;
-            inputInviteCode.Name = "inputInviteCode";
-            inputInviteCode.PlaceholderForeColor = Color.FromArgb(161, 161, 170);
-            inputInviteCode.PlaceholderText = "QWER-1234";
-            inputInviteCode.SelectedText = "";
-            inputInviteCode.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            inputInviteCode.Size = new Size(186, 41);
-            inputInviteCode.TabIndex = 2;
-            inputInviteCode.TextAlign = HorizontalAlignment.Center;
-            inputInviteCode.TextChanged += inputInviteCode_TextChanged;
+            label3.AutoSize = true;
+            label3.Font = new Font("Roboto Light", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(20, 57);
+            label3.Name = "label3";
+            label3.Size = new Size(332, 14);
+            label3.TabIndex = 3;
+            label3.Text = "Введите код группы (его можно узнать у преподавателя).";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // inputInviteCode1
+            // 
+            inputInviteCode1.Animated = true;
+            inputInviteCode1.BorderColor = Color.Empty;
+            inputInviteCode1.BorderRadius = 5;
+            inputInviteCode1.CharacterCasing = CharacterCasing.Upper;
+            inputInviteCode1.CustomizableEdges = customizableEdges11;
+            inputInviteCode1.DefaultText = "";
+            inputInviteCode1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            inputInviteCode1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            inputInviteCode1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            inputInviteCode1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            inputInviteCode1.FillColor = Color.FromArgb(20, 20, 20);
+            inputInviteCode1.FocusedState.BorderColor = Color.FromArgb(63, 63, 70);
+            inputInviteCode1.FocusedState.FillColor = Color.FromArgb(30, 30, 30);
+            inputInviteCode1.Font = new Font("Roboto", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            inputInviteCode1.HoverState.FillColor = Color.Black;
+            inputInviteCode1.IconLeft = Properties.Resources.key;
+            inputInviteCode1.Location = new Point(21, 102);
+            inputInviteCode1.Margin = new Padding(10, 3, 10, 3);
+            inputInviteCode1.MaxLength = 9;
+            inputInviteCode1.Name = "inputInviteCode1";
+            inputInviteCode1.PlaceholderForeColor = Color.FromArgb(161, 161, 170);
+            inputInviteCode1.PlaceholderText = "QWER-1234";
+            inputInviteCode1.SelectedText = "";
+            inputInviteCode1.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            inputInviteCode1.Size = new Size(186, 41);
+            inputInviteCode1.TabIndex = 2;
+            inputInviteCode1.TextAlign = HorizontalAlignment.Center;
+            inputInviteCode1.TextChanged += InputInviteCode_TextChanged;
             // 
             // guna2Panel1
             // 
@@ -470,7 +521,7 @@
             guna2Panel1.Controls.Add(textEmail);
             guna2Panel1.Controls.Add(guna2CirclePictureBox1);
             guna2Panel1.Controls.Add(textUsername);
-            guna2Panel1.Controls.Add(label1);
+            guna2Panel1.Controls.Add(label);
             guna2Panel1.CustomizableEdges = customizableEdges18;
             guna2Panel1.Location = new Point(6, 11);
             guna2Panel1.Name = "guna2Panel1";
@@ -498,6 +549,7 @@
             btnChangeAccount.Size = new Size(149, 30);
             btnChangeAccount.TabIndex = 16;
             btnChangeAccount.Text = "Сменить аккаунт";
+            btnChangeAccount.Click += btnChangeAccount_Click;
             // 
             // textEmail
             // 
@@ -538,29 +590,355 @@
             textUsername.TabIndex = 4;
             textUsername.Text = "Username";
             // 
+            // label
+            // 
+            label.AutoSize = true;
+            label.Font = new Font("Roboto", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            label.ForeColor = Color.Gray;
+            label.Location = new Point(10, 9);
+            label.Name = "label";
+            label.Size = new Size(119, 14);
+            label.TabIndex = 2;
+            label.Text = "Вы вошли в аккаунт";
+            label.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Roboto", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(16, 414);
+            label4.Name = "label4";
+            label4.Size = new Size(418, 23);
+            label4.TabIndex = 2;
+            label4.Text = "Как выполнить вход с помощью кода группы";
+            label4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // teacherReg
+            // 
+            teacherReg.BackColor = Color.FromArgb(22, 23, 27);
+            teacherReg.Controls.Add(btnCancel2);
+            teacherReg.Controls.Add(btnSkip);
+            teacherReg.Controls.Add(btnEnter2);
+            teacherReg.Controls.Add(guna2Panel4);
+            teacherReg.Controls.Add(guna2Panel3);
+            teacherReg.Location = new Point(4, 44);
+            teacherReg.Name = "teacherReg";
+            teacherReg.Padding = new Padding(3);
+            teacherReg.Size = new Size(1232, 587);
+            teacherReg.TabIndex = 2;
+            teacherReg.Text = "teacherReg";
+            // 
+            // btnCancel2
+            // 
+            btnCancel2.BorderRadius = 8;
+            btnCancel2.CustomizableEdges = customizableEdges20;
+            btnCancel2.DisabledState.BorderColor = Color.DarkGray;
+            btnCancel2.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnCancel2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnCancel2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnCancel2.FillColor = Color.FromArgb(186, 67, 43);
+            btnCancel2.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCancel2.ForeColor = Color.FromArgb(225, 228, 231);
+            btnCancel2.HoverState.FillColor = Color.FromArgb(207, 75, 50);
+            btnCancel2.Location = new Point(843, 553);
+            btnCancel2.Margin = new Padding(1);
+            btnCancel2.Name = "btnCancel2";
+            btnCancel2.PressedColor = Color.White;
+            btnCancel2.ShadowDecoration.CustomizableEdges = customizableEdges21;
+            btnCancel2.Size = new Size(127, 30);
+            btnCancel2.TabIndex = 23;
+            btnCancel2.Text = "Отмена";
+            btnCancel2.Click += btnCancel_Click;
+            // 
+            // btnSkip
+            // 
+            btnSkip.BorderRadius = 8;
+            btnSkip.CustomizableEdges = customizableEdges22;
+            btnSkip.DisabledState.BorderColor = Color.DarkGray;
+            btnSkip.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSkip.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSkip.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSkip.FillColor = Color.FromArgb(186, 67, 43);
+            btnSkip.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSkip.ForeColor = Color.FromArgb(225, 228, 231);
+            btnSkip.HoverState.FillColor = Color.FromArgb(207, 75, 50);
+            btnSkip.Location = new Point(972, 553);
+            btnSkip.Margin = new Padding(1);
+            btnSkip.Name = "btnSkip";
+            btnSkip.PressedColor = Color.White;
+            btnSkip.ShadowDecoration.CustomizableEdges = customizableEdges23;
+            btnSkip.Size = new Size(127, 30);
+            btnSkip.TabIndex = 22;
+            btnSkip.Text = "Пропустить";
+            // 
+            // btnEnter2
+            // 
+            btnEnter2.BorderRadius = 8;
+            btnEnter2.CustomizableEdges = customizableEdges24;
+            btnEnter2.DisabledState.BorderColor = Color.DarkGray;
+            btnEnter2.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnEnter2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnEnter2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnEnter2.FillColor = Color.FromArgb(186, 67, 43);
+            btnEnter2.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnEnter2.ForeColor = Color.FromArgb(225, 228, 231);
+            btnEnter2.HoverState.FillColor = Color.FromArgb(207, 75, 50);
+            btnEnter2.Location = new Point(1101, 553);
+            btnEnter2.Margin = new Padding(1);
+            btnEnter2.Name = "btnEnter2";
+            btnEnter2.PressedColor = Color.White;
+            btnEnter2.ShadowDecoration.CustomizableEdges = customizableEdges25;
+            btnEnter2.Size = new Size(127, 30);
+            btnEnter2.TabIndex = 21;
+            btnEnter2.Text = "Продолжить";
+            btnEnter2.Click += btnEnter2_Click;
+            // 
+            // guna2Panel4
+            // 
+            guna2Panel4.BorderColor = Color.Gray;
+            guna2Panel4.BorderRadius = 10;
+            guna2Panel4.BorderThickness = 1;
+            guna2Panel4.Controls.Add(label13);
+            guna2Panel4.Controls.Add(btnGenerateCode);
+            guna2Panel4.Controls.Add(inputInviteCode2);
+            guna2Panel4.Controls.Add(label12);
+            guna2Panel4.Controls.Add(label11);
+            guna2Panel4.Controls.Add(label9);
+            guna2Panel4.Controls.Add(label10);
+            guna2Panel4.Controls.Add(inputGroupName);
+            guna2Panel4.CustomizableEdges = customizableEdges31;
+            guna2Panel4.Location = new Point(6, 210);
+            guna2Panel4.Name = "guna2Panel4";
+            guna2Panel4.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            guna2Panel4.Size = new Size(1220, 339);
+            guna2Panel4.TabIndex = 5;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Roboto", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            label13.ForeColor = Color.Gray;
+            label13.Location = new Point(19, 255);
+            label13.Name = "label13";
+            label13.Size = new Size(272, 14);
+            label13.TabIndex = 12;
+            label13.Text = "Оставьте поле пустым чтобы задать код позже";
+            label13.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // btnGenerateCode
+            // 
+            btnGenerateCode.CheckedState.ImageSize = new Size(64, 64);
+            btnGenerateCode.HoverState.ImageSize = new Size(25, 25);
+            btnGenerateCode.Image = (Image)resources.GetObject("btnGenerateCode.Image");
+            btnGenerateCode.ImageOffset = new Point(0, 0);
+            btnGenerateCode.ImageRotate = 0F;
+            btnGenerateCode.ImageSize = new Size(25, 25);
+            btnGenerateCode.Location = new Point(214, 211);
+            btnGenerateCode.Name = "btnGenerateCode";
+            btnGenerateCode.PressedState.ImageSize = new Size(64, 64);
+            btnGenerateCode.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            btnGenerateCode.Size = new Size(30, 30);
+            btnGenerateCode.TabIndex = 11;
+            btnGenerateCode.Click += BtnGenerateCode_Click;
+            // 
+            // inputInviteCode2
+            // 
+            inputInviteCode2.Animated = true;
+            inputInviteCode2.BorderColor = Color.Empty;
+            inputInviteCode2.BorderRadius = 5;
+            inputInviteCode2.CharacterCasing = CharacterCasing.Upper;
+            inputInviteCode2.CustomizableEdges = customizableEdges27;
+            inputInviteCode2.DefaultText = "";
+            inputInviteCode2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            inputInviteCode2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            inputInviteCode2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            inputInviteCode2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            inputInviteCode2.FillColor = Color.FromArgb(20, 20, 20);
+            inputInviteCode2.FocusedState.BorderColor = Color.FromArgb(63, 63, 70);
+            inputInviteCode2.FocusedState.FillColor = Color.FromArgb(30, 30, 30);
+            inputInviteCode2.Font = new Font("Roboto", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            inputInviteCode2.HoverState.FillColor = Color.Black;
+            inputInviteCode2.IconLeft = Properties.Resources.key;
+            inputInviteCode2.Location = new Point(21, 206);
+            inputInviteCode2.Margin = new Padding(10, 3, 10, 3);
+            inputInviteCode2.MaxLength = 9;
+            inputInviteCode2.Name = "inputInviteCode2";
+            inputInviteCode2.PlaceholderForeColor = Color.FromArgb(161, 161, 170);
+            inputInviteCode2.PlaceholderText = "QWER-1234";
+            inputInviteCode2.SelectedText = "";
+            inputInviteCode2.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            inputInviteCode2.Size = new Size(186, 41);
+            inputInviteCode2.TabIndex = 10;
+            inputInviteCode2.TextAlign = HorizontalAlignment.Center;
+            inputInviteCode2.TextChanged += InputInviteCode_TextChanged;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Roboto Light", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.ForeColor = Color.White;
+            label12.Location = new Point(19, 180);
+            label12.Name = "label12";
+            label12.Size = new Size(73, 14);
+            label12.TabIndex = 9;
+            label12.Text = "Код группы";
+            label12.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Roboto Light", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.ForeColor = Color.White;
+            label11.Location = new Point(19, 83);
+            label11.Name = "label11";
+            label11.Size = new Size(178, 14);
+            label11.TabIndex = 8;
+            label11.Text = "Название курса (обязательно)";
+            label11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Roboto", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.ForeColor = Color.White;
+            label9.Location = new Point(18, 20);
+            label9.Name = "label9";
+            label9.Size = new Size(210, 29);
+            label9.TabIndex = 7;
+            label9.Text = "Создание группы";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Roboto Light", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.ForeColor = Color.White;
+            label10.Location = new Point(21, 49);
+            label10.Name = "label10";
+            label10.Size = new Size(321, 14);
+            label10.TabIndex = 6;
+            label10.Text = "Создайте свою первую группу и пригласите студентов.";
+            label10.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // inputGroupName
+            // 
+            inputGroupName.Animated = true;
+            inputGroupName.BorderColor = Color.Empty;
+            inputGroupName.BorderRadius = 5;
+            inputGroupName.CharacterCasing = CharacterCasing.Upper;
+            inputGroupName.CustomizableEdges = customizableEdges29;
+            inputGroupName.DefaultText = "";
+            inputGroupName.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            inputGroupName.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            inputGroupName.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            inputGroupName.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            inputGroupName.FillColor = Color.FromArgb(20, 20, 20);
+            inputGroupName.FocusedState.BorderColor = Color.FromArgb(63, 63, 70);
+            inputGroupName.FocusedState.FillColor = Color.FromArgb(30, 30, 30);
+            inputGroupName.Font = new Font("Roboto", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            inputGroupName.HoverState.FillColor = Color.Black;
+            inputGroupName.IconLeft = (Image)resources.GetObject("inputGroupName.IconLeft");
+            inputGroupName.Location = new Point(19, 109);
+            inputGroupName.Margin = new Padding(10, 3, 10, 3);
+            inputGroupName.MaxLength = 20;
+            inputGroupName.Name = "inputGroupName";
+            inputGroupName.PlaceholderForeColor = Color.FromArgb(161, 161, 170);
+            inputGroupName.PlaceholderText = "КПиЯП Т-295";
+            inputGroupName.SelectedText = "";
+            inputGroupName.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            inputGroupName.Size = new Size(186, 41);
+            inputGroupName.TabIndex = 2;
+            inputGroupName.TextAlign = HorizontalAlignment.Center;
+            // 
+            // guna2Panel3
+            // 
+            guna2Panel3.BorderColor = Color.Gray;
+            guna2Panel3.BorderRadius = 10;
+            guna2Panel3.BorderThickness = 1;
+            guna2Panel3.Controls.Add(btnChangeAccount1);
+            guna2Panel3.Controls.Add(label1);
+            guna2Panel3.Controls.Add(guna2CirclePictureBox2);
+            guna2Panel3.Controls.Add(label7);
+            guna2Panel3.Controls.Add(label8);
+            guna2Panel3.CustomizableEdges = customizableEdges36;
+            guna2Panel3.Location = new Point(6, 11);
+            guna2Panel3.Name = "guna2Panel3";
+            guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges37;
+            guna2Panel3.Size = new Size(1220, 193);
+            guna2Panel3.TabIndex = 4;
+            // 
+            // btnChangeAccount1
+            // 
+            btnChangeAccount1.BorderRadius = 8;
+            btnChangeAccount1.CustomizableEdges = customizableEdges33;
+            btnChangeAccount1.DisabledState.BorderColor = Color.DarkGray;
+            btnChangeAccount1.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnChangeAccount1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnChangeAccount1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnChangeAccount1.FillColor = Color.FromArgb(186, 67, 43);
+            btnChangeAccount1.Font = new Font("Roboto", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnChangeAccount1.ForeColor = Color.FromArgb(225, 228, 231);
+            btnChangeAccount1.HoverState.FillColor = Color.FromArgb(207, 75, 50);
+            btnChangeAccount1.Location = new Point(142, 124);
+            btnChangeAccount1.Margin = new Padding(1);
+            btnChangeAccount1.Name = "btnChangeAccount1";
+            btnChangeAccount1.PressedColor = Color.White;
+            btnChangeAccount1.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            btnChangeAccount1.Size = new Size(149, 30);
+            btnChangeAccount1.TabIndex = 16;
+            btnChangeAccount1.Text = "Сменить аккаунт";
+            btnChangeAccount1.Click += btnChangeAccount_Click;
+            // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Roboto", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            label1.Font = new Font("Roboto", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.Gray;
-            label1.Location = new Point(10, 9);
+            label1.Location = new Point(141, 96);
             label1.Name = "label1";
-            label1.Size = new Size(119, 14);
-            label1.TabIndex = 2;
-            label1.Text = "Вы вошли в аккаунт";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 5;
+            label1.Text = "Email";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // textInstruictions1
+            // guna2CirclePictureBox2
             // 
-            textInstruictions1.AutoSize = true;
-            textInstruictions1.Font = new Font("Roboto", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textInstruictions1.ForeColor = Color.White;
-            textInstruictions1.Location = new Point(16, 414);
-            textInstruictions1.Name = "textInstruictions1";
-            textInstruictions1.Size = new Size(418, 23);
-            textInstruictions1.TabIndex = 2;
-            textInstruictions1.Text = "Как выполнить вход с помощью кода группы";
-            textInstruictions1.TextAlign = ContentAlignment.MiddleCenter;
+            guna2CirclePictureBox2.BackColor = Color.Transparent;
+            guna2CirclePictureBox2.Image = (Image)resources.GetObject("guna2CirclePictureBox2.Image");
+            guna2CirclePictureBox2.ImageRotate = 0F;
+            guna2CirclePictureBox2.InitialImage = null;
+            guna2CirclePictureBox2.Location = new Point(19, 54);
+            guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            guna2CirclePictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges35;
+            guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            guna2CirclePictureBox2.Size = new Size(100, 100);
+            guna2CirclePictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            guna2CirclePictureBox2.TabIndex = 3;
+            guna2CirclePictureBox2.TabStop = false;
+            guna2CirclePictureBox2.UseTransparentBackground = true;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Roboto", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.ForeColor = Color.White;
+            label7.Location = new Point(138, 66);
+            label7.Name = "label7";
+            label7.Size = new Size(122, 29);
+            label7.TabIndex = 4;
+            label7.Text = "Username";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Roboto", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            label8.ForeColor = Color.Gray;
+            label8.Location = new Point(10, 9);
+            label8.Name = "label8";
+            label8.Size = new Size(119, 14);
+            label8.TabIndex = 2;
+            label8.Text = "Вы вошли в аккаунт";
+            label8.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // dragMainWindow
             // 
@@ -595,6 +973,12 @@
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();
+            teacherReg.ResumeLayout(false);
+            guna2Panel4.ResumeLayout(false);
+            guna2Panel4.PerformLayout();
+            guna2Panel3.ResumeLayout(false);
+            guna2Panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -610,24 +994,44 @@
         private Label textPrompt;
         private Label textChoice;
         private Guna.UI2.WinForms.Guna2TileButton btnGroups;
-        private Guna.UI2.WinForms.Guna2CheckBox CheckBoxDoNotAskAgain;
         private Guna.UI2.WinForms.Guna2TileButton btnIndependent;
         private Guna.UI2.WinForms.Guna2DragControl dragMainWindow;
-        private Guna.UI2.WinForms.Guna2TextBox inputInviteCode;
+        private Guna.UI2.WinForms.Guna2TextBox inputInviteCode1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Label label1;
+        private Label label;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Label textUsername;
         private Label textEmail;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Label textInstruictions1;
+        private Label label4;
         private Guna.UI2.WinForms.Guna2Button btnChangeAccount;
-        private Label label3;
         private Label label2;
+        private Label label3;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Label label5;
-        private Label label4;
-        private Guna.UI2.WinForms.Guna2Button btnCancel;
-        private Guna.UI2.WinForms.Guna2Button btnEnterCode;
+        private Label label6;
+        private Guna.UI2.WinForms.Guna2Button btnCancel1;
+        private Guna.UI2.WinForms.Guna2Button btnEnter1;
+        private Label btnTeacher;
+        private Label labelTeacher;
+        private TabPage teacherReg;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
+        private Guna.UI2.WinForms.Guna2TextBox inputGroupName;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2Button btnChangeAccount1;
+        private Label label1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
+        private Label label7;
+        private Label label8;
+        private Label label9;
+        private Label label10;
+        private Label label11;
+        private Guna.UI2.WinForms.Guna2ImageButton btnGenerateCode;
+        private Guna.UI2.WinForms.Guna2TextBox inputInviteCode2;
+        private Label label12;
+        private Label label13;
+        private Guna.UI2.WinForms.Guna2Button btnCancel2;
+        private Guna.UI2.WinForms.Guna2Button btnSkip;
+        private Guna.UI2.WinForms.Guna2Button btnEnter2;
     }
 }
