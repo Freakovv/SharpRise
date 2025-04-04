@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\",
+  "WorkspaceRootPath": "C:\\Users\\misha\\Desktop\\SharpRise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\freakovv\\desktop\\sharprise\\sharprise\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\freakovv\\desktop\\sharprise\\sharprise\\viewmodels\\errordialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\errordialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\freakovv\\desktop\\sharprise\\sharprise\\viewmodels\\errordialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\errordialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\view\\sharprisemessagedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\view\\sharprisemessagedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\models\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\models\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +31,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ErrorDialog.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\ViewModels\\ErrorDialog.xaml.cs",
-              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\ErrorDialog.xaml.cs",
-              "ToolTip": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\ViewModels\\ErrorDialog.xaml.cs",
-              "RelativeToolTip": "SharpRise\\ViewModels\\ErrorDialog.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Title": "SharpRiseMessageDialog.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\View\\SharpRiseMessageDialog.cs",
+              "RelativeDocumentMoniker": "SharpRise\\View\\SharpRiseMessageDialog.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\View\\SharpRiseMessageDialog.cs",
+              "RelativeToolTip": "SharpRise\\View\\SharpRiseMessageDialog.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAIA4wEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T11:02:53.266Z",
+              "WhenOpened": "2025-04-04T18:55:39.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ErrorDialog.xaml",
-              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\ViewModels\\ErrorDialog.xaml",
-              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\ErrorDialog.xaml",
-              "ToolTip": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\ViewModels\\ErrorDialog.xaml",
-              "RelativeToolTip": "SharpRise\\ViewModels\\ErrorDialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-29T11:02:13.575Z",
-              "EditorCaption": ""
+              "Title": "GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "SharpRise\\ViewModels\\GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T18:39:20.912Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\App.xaml.cs",
-              "RelativeDocumentMoniker": "SharpRise\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\App.xaml.cs",
-              "RelativeToolTip": "SharpRise\\App.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAawBYAAAAQAAAAAAAAAA==",
+              "Title": "GroupSelectionScenario.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "RelativeToolTip": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAmwHIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T19:43:10.63Z",
+              "WhenOpened": "2025-04-04T18:10:09.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\Models\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "SharpRise\\Models\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\Models\\Services\\AuthService.cs",
+              "RelativeToolTip": "SharpRise\\Models\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCEAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T17:28:08.754Z",
               "EditorCaption": ""
             }
           ]
