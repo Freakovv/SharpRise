@@ -24,7 +24,7 @@ namespace SharpRiseIntegration
                 return;
             }
 
-            // Загрузка конфигурации из appsettings.json
+            // Загрузка appsettings.json
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
@@ -49,6 +49,7 @@ namespace SharpRiseIntegration
             });
         }
 
+        // WinForms
         private void OpenMainForm()
         {
             WinFormsApp.EnableVisualStyles();
