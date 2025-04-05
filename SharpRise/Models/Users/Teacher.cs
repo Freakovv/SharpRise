@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SharpRise.Models.Users
 {
-    public class Teacher
+    public class Teacher : User
     {
         [Key]
         public int Id { get; set; }

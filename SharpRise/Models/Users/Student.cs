@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SharpRise.Models.Users
 {
-    public class Student
+    public class Student : User
     {
         [Key] 
         public int Id { get; set; }
