@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using SharpRise.Models.Data;
+using SharpRise.Models.Security;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +11,9 @@ namespace SharpRise.Models.Services
 {
     public interface IAuthService
     {
-        Task<bool> RegisterTeacherAsync(string username, string password, string email);
-        Task<bool> LoginAsync(string username, string password);
+        Task<LoginResult> LoginAsync(string username, string password);
+        Task<RegistrationResult> CompleteRegistrationAsync(string token, UserType userType);
+        RegistrationResult CreateTemporaryUser(string username, string password, string email);
+
     }
 }
