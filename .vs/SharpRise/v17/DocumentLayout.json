@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\misha\\Desktop\\SharpRise\\",
+  "WorkspaceRootPath": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\models\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\freakovv\\desktop\\sharprise\\sharprise\\models\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\models\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\freakovv\\desktop\\sharprise\\sharprise\\models\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\models\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\freakovv\\desktop\\sharprise\\sharprise\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\freakovv\\desktop\\sharprise\\sharprise\\models\\users\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\models\\users\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\freakovv\\desktop\\sharprise\\sharprise\\models\\users\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\models\\users\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\freakovv\\desktop\\sharprise\\sharprise\\view\\sharprisemessagedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\view\\sharprisemessagedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\freakovv\\desktop\\sharprise\\sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|C:\\Users\\Freakovv\\Desktop\\SharpRise\\sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\viewmodels\\groupselectionscenario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|c:\\users\\misha\\desktop\\sharprise\\sharprise\\view\\sharprisemessagedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3940734-7FC8-4477-AA6F-C75317AB9AC9}|SharpRise\\SharpRise.csproj|solutionrelative:sharprise\\view\\sharprisemessagedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +42,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\Models\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "SharpRise\\Models\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\Models\\Services\\IAuthService.cs",
+              "RelativeToolTip": "SharpRise\\Models\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T10:13:58.323Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SharpRiseMessageDialog.cs",
-              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\View\\SharpRiseMessageDialog.cs",
-              "RelativeDocumentMoniker": "SharpRise\\View\\SharpRiseMessageDialog.cs",
-              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\View\\SharpRiseMessageDialog.cs",
-              "RelativeToolTip": "SharpRise\\View\\SharpRiseMessageDialog.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAIA4wEQAAAAAAAAAAAAAAA==",
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\Models\\Users\\Teacher.cs",
+              "RelativeDocumentMoniker": "SharpRise\\Models\\Users\\Teacher.cs",
+              "ToolTip": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\Models\\Users\\Teacher.cs",
+              "RelativeToolTip": "SharpRise\\Models\\Users\\Teacher.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T18:55:39.574Z",
+              "WhenOpened": "2025-04-05T10:04:40.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
-              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
-              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "SharpRise\\ViewModels\\GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\Models\\Users\\User.cs",
+              "RelativeDocumentMoniker": "SharpRise\\Models\\Users\\User.cs",
+              "ToolTip": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\Models\\Users\\User.cs",
+              "RelativeToolTip": "SharpRise\\Models\\Users\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T18:39:20.912Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GroupSelectionScenario.cs",
-              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
-              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
-              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
-              "RelativeToolTip": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAuwHcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T18:10:09.394Z",
+              "WhenOpened": "2025-04-05T10:04:08.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\Models\\Services\\AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\Models\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "SharpRise\\Models\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\Models\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\Models\\Services\\AuthService.cs",
               "RelativeToolTip": "SharpRise\\Models\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAA0wFoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T17:28:08.754Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\Models\\Users\\Student.cs",
+              "RelativeDocumentMoniker": "SharpRise\\Models\\Users\\Student.cs",
+              "ToolTip": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\Models\\Users\\Student.cs",
+              "RelativeToolTip": "SharpRise\\Models\\Users\\Student.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T06:28:01.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SharpRiseMessageDialog.cs",
+              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\View\\SharpRiseMessageDialog.cs",
+              "RelativeDocumentMoniker": "SharpRise\\View\\SharpRiseMessageDialog.cs",
+              "ToolTip": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\View\\SharpRiseMessageDialog.cs",
+              "RelativeToolTip": "SharpRise\\View\\SharpRiseMessageDialog.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAewEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T18:55:39.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "ToolTip": "C:\\Users\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "..\\..\\..\\misha\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T18:39:20.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GroupSelectionScenario.cs",
+              "DocumentMoniker": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "RelativeDocumentMoniker": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "ToolTip": "C:\\Users\\Freakovv\\Desktop\\SharpRise\\SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "RelativeToolTip": "SharpRise\\ViewModels\\GroupSelectionScenario.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAuwHcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T18:10:09.394Z"
             }
           ]
         }
