@@ -207,7 +207,6 @@
             // 
             // inputPassword
             // 
-            inputPassword.Animated = true;
             inputPassword.BorderColor = Color.FromArgb(63, 63, 70);
             inputPassword.BorderRadius = 10;
             customizableEdges11.TopLeft = false;
@@ -237,7 +236,6 @@
             // 
             // inputLogin
             // 
-            inputLogin.Animated = true;
             inputLogin.BorderColor = Color.FromArgb(63, 63, 70);
             inputLogin.BorderRadius = 10;
             customizableEdges13.BottomLeft = false;
@@ -254,7 +252,7 @@
             inputLogin.IconLeft = Properties.Resources.mail;
             inputLogin.IconLeftOffset = new Point(3, 0);
             inputLogin.IconLeftSize = new Size(21, 21);
-            inputLogin.Location = new Point(0, 93);
+            inputLogin.Location = new Point(0, 92);
             inputLogin.Margin = new Padding(3, 4, 3, 4);
             inputLogin.MaxLength = 254;
             inputLogin.Name = "inputLogin";

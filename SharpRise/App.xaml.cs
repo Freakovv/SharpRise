@@ -1,13 +1,9 @@
-﻿using System;
-using System.Threading.Tasks;
-using System.Windows;
-using SharpRise;
+﻿using System.Windows;
 using SharpRise.ViewModels;
 using WinFormsApp = System.Windows.Forms.Application;
 using Microsoft.Extensions.Configuration;
 using System.IO;
 using MessageBox = System.Windows.MessageBox;
-using System.Diagnostics;  
 
 namespace SharpRiseIntegration
 {
@@ -44,13 +40,13 @@ namespace SharpRiseIntegration
                 this.Dispatcher.Invoke(() =>
                 {
                     splashScreen.Close();
-                    OpenMainForm();
+                    OpenSignInWindow();
                 });
             });
         }
 
         // WinForms
-        private void OpenMainForm()
+        private void OpenSignInWindow()
         {
             WinFormsApp.EnableVisualStyles();
             WinFormsApp.SetCompatibleTextRenderingDefault(false);

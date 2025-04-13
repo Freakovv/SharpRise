@@ -2,32 +2,35 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="ViewModelsWPF\SplashScreen.xaml.cs">
+    <Compile Update="ViewWPF\SplashScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\ErrorDialog.xaml.cs">
+    <Compile Update="View\Student\Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewModels\ErrorDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ViewModels\GroupSelectionScenario.cs">
+    <Compile Update="View\GroupSelectionScenario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ViewModels\SignInWindow.cs">
+    <Compile Update="View\SignInWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ViewModels\SignUpWindow.cs">
+    <Compile Update="View\SignUpWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\SharpRiseMessageDialog.cs">
+    <Compile Update="ViewModels\SharpRiseMessageDialog.cs">
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Update="ViewModels\GroupSelectionScenario.resx">
+    <EmbeddedResource Update="View\GroupSelectionScenario.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="View\ErrorDialog.xaml">
+    <Page Update="ViewModels\ErrorDialog.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -20,6 +20,10 @@ namespace SharpRise.View
             Style = MessageDialogStyle.Dark;
         }
 
+        public SharpRiseMessageDialog()
+        {
+        }
+
         ~SharpRiseMessageDialog()
         {
             Dispose();
