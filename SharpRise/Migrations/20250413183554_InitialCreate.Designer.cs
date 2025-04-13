@@ -12,7 +12,7 @@ using SharpRise.Models.Data;
 namespace SharpRise.Migrations
 {
     [DbContext(typeof(SharpRiseContext))]
-    [Migration("20250323194857_InitialCreate")]
+    [Migration("20250413183554_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -65,8 +65,8 @@ namespace SharpRise.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<int>("TeacherId")
                         .HasColumnType("int");
