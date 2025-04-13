@@ -38,6 +38,17 @@ x64/
 
 # Visual cache files
 ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
 
 # My test console proj
 test/
