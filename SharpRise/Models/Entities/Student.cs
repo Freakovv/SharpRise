@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SharpRise.Models.Users
+namespace SharpRise.Models.Entities
 {
     public class Student : User
     {

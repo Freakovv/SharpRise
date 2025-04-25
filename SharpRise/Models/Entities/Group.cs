@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Windows;
 using System.Linq;
 
-namespace SharpRise.Models.Users
+namespace SharpRise.Models.Entities
 {
     public class Group
     {

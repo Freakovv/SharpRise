@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SharpRise.Models.Users
+namespace SharpRise.Models.Entities
 {
     public class User
     {
