@@ -42,7 +42,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="View\Teacher\" />
+    <Folder Include="View\StudentView\" />
+    <Folder Include="View\TeacherView\" />
+    <Folder Include="src\" />
   </ItemGroup>
 
 </Project>

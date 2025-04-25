@@ -1,7 +1,5 @@
-﻿using Guna.UI2.WinForms;
-using Microsoft.IdentityModel.Tokens;
-using SharpRise.Models.Data;
-using SharpRise.Models.Users;
+﻿using Microsoft.IdentityModel.Tokens;
+using SharpRise.Models.Entities;
 using SharpRise.View;
 using System.Windows.Interop;
 using Validator = SharpRise.Models.Security.Validator;
@@ -11,8 +9,8 @@ namespace SharpRise.ViewModels
     public partial class GroupSelectionScenario : Form
     {
         User User { get; set; }
-        Teacher? teacher { get; set; }
-        Student? student { get; set; }
+        Teacher? Teacher { get; set; }
+        Models.Entities.Student? Student { get; set; }
         Group? Group { get; set; }
 
         public GroupSelectionScenario(User user)
