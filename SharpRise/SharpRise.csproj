@@ -10,6 +10,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="src\View\StudentView\**" />
+    <Compile Remove="src\View\TeacherView\**" />
+    <EmbeddedResource Remove="src\View\StudentView\**" />
+    <EmbeddedResource Remove="src\View\TeacherView\**" />
+    <None Remove="src\View\StudentView\**" />
+    <None Remove="src\View\TeacherView\**" />
+    <Page Remove="src\View\StudentView\**" />
+    <Page Remove="src\View\TeacherView\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="icons\logo\logo-text.png" />
   </ItemGroup>
 
@@ -39,12 +50,6 @@
     <None Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="View\StudentView\" />
-    <Folder Include="View\TeacherView\" />
-    <Folder Include="src\" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using SharpRise.View;
 using SharpRise.ViewModels;
 using WinFormsApp = System.Windows.Forms.Application;
 using Microsoft.Extensions.Configuration;

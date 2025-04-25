@@ -2,29 +2,29 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="ViewModels\ErrorDialog.xaml.cs">
+    <Compile Update="src\ViewModels\ErrorDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\GroupSelectionScenario.cs">
+    <Compile Update="src\View\GroupSelectionScenario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\SignInWindow.cs">
+    <Compile Update="src\View\SignInWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\SignUpWindow.cs">
+    <Compile Update="src\View\SignUpWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ViewModels\SharpRiseMessageDialog.cs">
+    <Compile Update="src\ViewModels\SharpRiseMessageDialog.cs">
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Update="View\GroupSelectionScenario.resx">
+    <EmbeddedResource Update="src\View\GroupSelectionScenario.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="ViewModels\ErrorDialog.xaml">
+    <Page Update="src\ViewModels\ErrorDialog.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
