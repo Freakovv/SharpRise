@@ -15,4 +15,3 @@ namespace SharpRise.src.Models.Data
         }
     }
 }
-
