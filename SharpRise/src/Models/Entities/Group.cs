@@ -16,7 +16,7 @@ namespace SharpRise.src.Models.Entities
         public required string Name { get; set; }
 
         [MaxLength(200)] // SharpRise стандарт
-        public required string Description { get; set; }
+        public string Description { get; set; }
 
         [MaxLength(30)] // SharpRise стандарт
         public required string TeacherUsername { get; set; }
@@ -49,6 +49,16 @@ namespace SharpRise.src.Models.Entities
                 .ToArray());
 
             return $"{letterPart}-{numberPart}";
+        }
+        public void AddStudent(Student student)
+        {
+            if (student == null)
+                throw new ArgumentNullException(nameof(student));
+
+            if (!Students.Any(s => s.Id == student.Id))
+            {
+                Students.Add(student);
+            }
         }
     }
 }
