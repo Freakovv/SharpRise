@@ -16,6 +16,7 @@ using SharpRise.src.Models.Security;
 using SharpRise.src.ViewModels;
 using Validator = SharpRise.src.Models.Security.Validator;
 using SharpRise.src.Models.Data;
+using Guna.UI2.WinForms;
 
 namespace SharpRise.View
 {
@@ -91,12 +92,6 @@ namespace SharpRise.View
                 return;
             }
 
-            var user = new User
-            {
-                Email = inputEmail.Text,
-                Username = inputUsername.Text,
-                Password = Hasher.HashPassword(inputPassword.Text)
-            };
 
             using var context = new ShariRiseContextFactory().CreateDbContext(null);
             var entityService = new EntityService(context);
@@ -106,6 +101,19 @@ namespace SharpRise.View
                 msg.ShowError("Пользователь с таким email уже зарегистрирован");
                 return;
             }
+
+            if (await entityService.UsernameExistsAsync(inputUsername.Text))
+            {
+                msg.ShowError("Это имя пользователя уже занято!", "Ошибка регистрации");
+                return;
+            }
+            
+            var user = new User
+            {
+                Email = inputEmail.Text,
+                Username = inputUsername.Text,
+                Password = Hasher.HashPassword(inputPassword.Text)
+            };
 
             // Переход
             GroupSelectionScenario selectionScenario = new GroupSelectionScenario(user);

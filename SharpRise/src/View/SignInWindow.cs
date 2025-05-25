@@ -47,5 +47,7 @@ namespace SharpRise.View
             fadeAnimation.FormProperty = signUpWindow;
             fadeAnimation.FadeIn();
         }
+
+
     }
 }
