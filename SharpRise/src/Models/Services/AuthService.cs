@@ -42,7 +42,7 @@ namespace SharpRise.src.Models.Services
             _context = context;
         }
 
-        // Этап 1: Создание временного пользователя
+        // Создание временного пользователя
         public RegistrationResult CreateTemporaryUser(string username, string password, string email)
         {
             // Проверка уникальности
@@ -88,7 +88,7 @@ namespace SharpRise.src.Models.Services
             };
         }
 
-        // Этап 2: Подтверждение роли и сохранение
+        // Подтверждение роли и сохранение
         public async Task<RegistrationResult> CompleteRegistrationAsync(string token, UserType userType)
         {
             if (!_temporaryUsers.TryGetValue(token, out var tempUser))

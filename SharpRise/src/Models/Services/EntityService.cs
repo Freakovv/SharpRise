@@ -4,10 +4,10 @@ using SharpRise.src.Models.Data;
 
 namespace SharpRise.src.Models.Services
 {
-    public class EntityService
+    public class EntityService : IDisposable
     {
         private readonly SharpRiseContext _context;
-
+        private bool _disposed = false;
         public EntityService(SharpRiseContext context)
         {
             _context = context;
@@ -89,22 +89,35 @@ namespace SharpRise.src.Models.Services
             return teacher;
         }
 
-        // Добавление студента в группу
+        public async Task<Group?> GetGroupByInviteCodeAsync(string inviteCode)
+        {
+            return await _context.Groups
+                .FirstOrDefaultAsync(g => g.InviteCode == inviteCode);
+        }
+
         public async Task AddStudentToGroupAsync(int studentId, int groupId)
         {
-            var student = await _context.Students
-                .Include(s => s.Groups)
-                .FirstOrDefaultAsync(s => s.Id == studentId);
+            var group = await _context.Groups
+                .Include(g => g.Students)
+                .FirstOrDefaultAsync(g => g.Id == groupId);
 
-            var group = await _context.Groups.FindAsync(groupId);
+            var student = await _context.Students.FindAsync(studentId);
 
-            if (student != null && group != null)
+            if (group == null || student == null)
+                throw new ArgumentException("Group or Student not found");
+
+            if (!group.Students.Any(s => s.Id == studentId))
             {
-                student.Groups.Add(group);
+                group.Students.Add(student);
                 await _context.SaveChangesAsync();
             }
         }
-
+        // Для создания контекста
+        static internal EntityService CreateEntityService()
+        {
+            var context = new ShariRiseContextFactory().CreateDbContext(null);
+            return new EntityService(context);
+        }
         #endregion
 
         #region Exists Methods
@@ -133,5 +146,26 @@ namespace SharpRise.src.Models.Services
         //    return await _context.Set<T>().ToListAsync();
         //}
         #endregion
+
+        #region IDisposable Implementation
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    _context?.Dispose();
+                }
+                _disposed = true;
+            }
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+        #endregion
+
     }
 }
