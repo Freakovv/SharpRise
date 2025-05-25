@@ -71,6 +71,11 @@ namespace SharpRise.src.Models.Security
         #region InviteCode
         internal static bool ValidateInviteCode(string code)
         {
+            if (code.IsNullOrEmpty())
+            {
+                return false;
+            }
+
             // убрать пробелы
             code = code.Trim();
 
