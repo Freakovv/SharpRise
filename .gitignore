@@ -42,5 +42,6 @@ x64/
 *.vspx
 
 
-# My test console proj
+# Other
 test/
+Visual Studio 2022/
